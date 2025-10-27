@@ -609,5 +609,29 @@
                 "wealth": 3
             }
         ]
+    },
+    {
+        "name": "Dragonfly",
+        "reference": {
+            "book": "WotW",
+            "page": 85
+        },
+        "type": "Minor",
+        "ring_increase": "Earth",
+        "skill_increase": "Sentiment",
+        "status": 30,
+        "families": [
+            {
+                "name": "Tonbo",
+                "reference": {
+                    "book": "WotW",
+                    "page": 86
+                },
+                "ring_increase": ["Air", "Water"],
+                "skill_increase": ["Courtesy", "Culture"],
+                "glory": 35,
+                "wealth": 1
+            }
+        ]
     }
 ]
