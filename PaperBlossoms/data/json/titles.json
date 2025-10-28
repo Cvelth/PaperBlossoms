@@ -2733,5 +2733,249 @@
                 "special_access": true
             }
         ]
+    },
+    {
+        "name": "Awakened Soul",
+        "reference": {
+            "book": "WotW",
+            "page": 142
+        },
+        "social_awards": [
+            {
+                "award_attribute": "status",
+                "base_award": 0
+            }
+        ],
+        "xp_to_completion": 44,
+        "title_ability": "Wisdom of Countless Lifetimes",
+        "advancements": [
+            {
+                "name": "Social skills",
+                "type": "skill_group",
+                "special_access": false
+            },
+            {
+                "name": "Scholar skills",
+                "type": "skill_group",
+                "special_access": false
+            },
+            {
+                "name": "Culture",
+                "type": "skill",
+                "special_access": false
+            },
+            {
+                "name": "Meditation",
+                "type": "skill",
+                "special_access": false
+            },
+            {
+                "name": "Survival",
+                "type": "skill",
+                "special_access": false
+            },
+            {
+                "name": "Theology",
+                "type": "skill",
+                "special_access": false
+            },
+            {
+                "name": "Eternal Mind's Gates",
+                "type": "technique",
+                "special_access": true
+            },
+            {
+                "name": "Trance of Lives Past",
+                "type": "technique",
+                "special_access": true
+            }
+        ]
+    },
+    {
+        "name": "Forester",
+        "reference": {
+            "book": "WotW",
+            "page": 142
+        },
+        "social_awards": [
+            {
+                "award_attribute": "status",
+                "base_award": 5,
+                "constraint": {
+                    "type": "min",
+                    "value": 20
+                }
+            }
+        ],
+        "xp_to_completion": 24,
+        "title_ability": "Blessing of the Trees",
+        "advancements": [
+            {
+                "name": "Social skills",
+                "type": "skill_group",
+                "special_access": false
+            },
+            {
+                "name": "Scholar skills",
+                "type": "skill_group",
+                "special_access": false
+            },
+            {
+                "name": "Courtesy",
+                "type": "skill",
+                "special_access": false
+            },
+            {
+                "name": "Sentiment",
+                "type": "skill",
+                "special_access": false
+            },
+            {
+                "name": "Survival",
+                "type": "skill",
+                "special_access": false
+            },
+            {
+                "name": "Theology",
+                "type": "skill",
+                "special_access": false
+            },
+            {
+                "name": "Earth Invocations",
+                "type": "technique_group",
+                "special_access": true,
+                "rank": 2
+            },
+            {
+                "name": "Water Invocations",
+                "type": "technique_group",
+                "special_access": true,
+                "rank": 2
+            },
+            {
+                "name": "Sh\u016bji",
+                "type": "technique_group",
+                "special_access": true,
+                "rank": 3
+            }
+        ]
+    },
+    {
+        "name": "Temple Abbot",
+        "reference": {
+            "book": "WotW",
+            "page": 142
+        },
+        "social_awards": [
+            {
+                "award_attribute": "status",
+                "base_award": 10,
+                "constraint": {
+                    "type": "min",
+                    "value": 30
+                }
+            }
+        ],
+        "xp_to_completion": 36,
+        "title_ability": "Soothing Cadence",
+        "advancements": [
+            {
+                "name": "Social skills",
+                "type": "skill_group",
+                "special_access": false
+            },
+            {
+                "name": "Scholar skills",
+                "type": "skill_group",
+                "special_access": false
+            },
+            {
+                "name": "Culture",
+                "type": "skill",
+                "special_access": false
+            },
+            {
+                "name": "Meditation",
+                "type": "skill",
+                "special_access": false
+            },
+            {
+                "name": "Theology",
+                "type": "skill",
+                "special_access": false
+            },
+            {
+                "name": "Cleansing Rite",
+                "type": "technique",
+                "special_access": true
+            },
+            {
+                "name": "Rejuvinating Breath",
+                "type": "technique",
+                "special_access": true
+            },
+            {
+                "name": "Touchstone of Courage",
+                "type": "technique",
+                "special_access": true
+            }
+        ]
+    },
+    {
+        "name": "Y\u014dkai Hunter",
+        "reference": {
+            "book": "WotW",
+            "page": 143
+        },
+        "social_awards": [
+            {
+                "award_attribute": "status",
+                "base_award": 5
+            }
+        ],
+        "xp_to_completion": 36,
+        "title_ability": "Commune with the Changed",
+        "advancements": [
+            {
+                "name": "Scholar skills",
+                "type": "skill_group",
+                "special_access": false
+            },
+            {
+                "name": "Martial skills",
+                "type": "skill_group",
+                "special_access": false
+            },
+            {
+                "name": "Command",
+                "type": "skill",
+                "special_access": false
+            },
+            {
+                "name": "Courtesy",
+                "type": "skill",
+                "special_access": false
+            },
+            {
+                "name": "Survival",
+                "type": "skill",
+                "special_access": false
+            },
+            {
+                "name": "Blistering Retribution",
+                "type": "technique",
+                "special_access": true
+            },
+            {
+                "name": "Swallow's Dart Style",
+                "type": "technique",
+                "special_access": true
+            },
+            {
+                "name": "Tiger's Lunge Style",
+                "type": "technique",
+                "special_access": true
+            }
+        ]
     }
 ]
