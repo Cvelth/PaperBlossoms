@@ -1640,5 +1640,61 @@
             "book": "FoV",
             "page": 80
         }
+    },
+    {
+        "name": "List of Observations",
+        "reference": {
+            "book": "WotW",
+            "page": 96
+        }
+    },
+    {
+        "name": "Woolly Pony",
+        "reference": {
+            "book": "WotW",
+            "page": 97
+        }
+    },
+    {
+        "name": "Personal Pearl (Sacred)",
+        "reference": {
+            "book": "WotW",
+            "page": 98
+        }
+    },
+    {
+        "name": "Memory Stick",
+        "reference": {
+            "book": "WotW",
+            "page": 99
+        }
+    },
+    {
+        "name": "Two Items of Rarity 2 or Lower that the Nezumi Scavenged",
+        "reference": {
+            "book": "WotW",
+            "page": 99
+        }
+    },
+    {
+        "name": "Bundle of Medicinal Herbs",
+        "reference": {
+            "book": "WotW",
+            "page": 100
+        }
+    },
+    {
+        "name": "Journal of Insights",
+        "reference": {
+            "book": "WotW",
+            "page": 100
+        }
+    },
+    {
+        "name": "Resources for Two Hunting Traps",
+        "reference": {
+            "book": "WotW",
+            "page": 101
+        }
     }
 ]
