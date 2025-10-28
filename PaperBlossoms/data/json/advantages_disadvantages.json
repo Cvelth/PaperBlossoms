@@ -721,6 +721,36 @@
                 "ring": "Earth",
                 "types": ["Mental"],
                 "effects": ""
+            },
+            {
+                "name": "Knowledgeable Wilderness Guide",
+                "reference": {
+                    "book": "WotW",
+                    "page": 102
+                },
+                "ring": "Void",
+                "types": ["Interpersonal", "Spiritual"],
+                "effects": ""
+            },
+            {
+                "name": "Skilled Midwife",
+                "reference": {
+                    "book": "WotW",
+                    "page": 102
+                },
+                "ring": "Fire",
+                "types": ["Interpersonal"],
+                "effects": ""
+            },
+            {
+                "name": "Thoughtful Arbiter",
+                "reference": {
+                    "book": "WotW",
+                    "page": 102
+                },
+                "ring": "Water",
+                "types": ["Interpersonal"],
+                "effects": ""
             }
         ]
     },
@@ -1145,6 +1175,26 @@
                 },
                 "ring": "Fire",
                 "types": ["Martial", "Social"],
+                "effects": ""
+            },
+            {
+                "name": "Charity",
+                "reference": {
+                    "book": "WotW",
+                    "page": 103
+                },
+                "ring": "Water",
+                "types": ["Interpersonal", "Mental"],
+                "effects": ""
+            },
+            {
+                "name": "Kintsugi",
+                "reference": {
+                    "book": "WotW",
+                    "page": 104
+                },
+                "ring": "Earth",
+                "types": ["Mental", "Physical"],
                 "effects": ""
             }
         ]
@@ -1971,6 +2021,36 @@
                 "ring": "Water",
                 "types": ["Interpersonal", "Social"],
                 "effects": ""
+            },
+            {
+                "name": "Insomniac",
+                "reference": {
+                    "book": "WotW",
+                    "page": 104
+                },
+                "ring": "Void",
+                "types": ["Mental"],
+                "effects": ""
+            },
+            {
+                "name": "Out of Shape",
+                "reference": {
+                    "book": "WotW",
+                    "page": 105
+                },
+                "ring": "Earth",
+                "types": ["Physical"],
+                "effects": ""
+            },
+            {
+                "name": "Stalked by [Creature]",
+                "reference": {
+                    "book": "WotW",
+                    "page": 105
+                },
+                "ring": "Earth",
+                "types": ["Interpersonal", "Mental", "Spiritual"],
+                "effects": ""
             }
         ]
     },
@@ -2365,6 +2445,36 @@
                 },
                 "ring": "Water",
                 "types": ["Interpersonal"],
+                "effects": ""
+            },
+            {
+                "name": "Fear of [Common Creature]",
+                "reference": {
+                    "book": "WotW",
+                    "page": 105
+                },
+                "ring": "Earth",
+                "types": ["Mental"],
+                "effects": ""
+            },
+            {
+                "name": "Fear of Mediocrity",
+                "reference": {
+                    "book": "WotW",
+                    "page": 106
+                },
+                "ring": "Fire",
+                "types": ["Interpersonal", "Mental"],
+                "effects": ""
+            },
+            {
+                "name": "Fear of Poison",
+                "reference": {
+                    "book": "WotW",
+                    "page": 106
+                },
+                "ring": "Air",
+                "types": ["Mental"],
                 "effects": ""
             }
         ]
