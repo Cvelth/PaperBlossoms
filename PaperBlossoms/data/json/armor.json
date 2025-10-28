@@ -399,5 +399,66 @@
             "value": 1,
             "unit": "koku"
         }
+    },
+    {
+        "name": "Nezumi Armor",
+        "reference": {
+            "book": "WotW",
+            "page": 99
+        },
+        "resistance_values": [
+            {
+                "category": "Physical",
+                "value": 2
+            }
+        ],
+        "qualities": [],
+        "rarity": 99,
+        "price": {
+            "value": 1,
+            "unit": "koku"
+        }
+    },
+    {
+        "name": "Naga Armor",
+        "reference": {
+            "book": "WotW",
+            "page": 98
+        },
+        "resistance_values": [
+            {
+                "category": "Physical",
+                "value": 2
+            },
+            {
+                "category": "Supernatural",
+                "value": 1
+            }
+        ],
+        "qualities": [],
+        "rarity": 99,
+        "price": {
+            "value": 1,
+            "unit": "koku"
+        }
+    },
+    {
+        "name": "Yobanjin Armor",
+        "reference": {
+            "book": "WotW",
+            "page": 101
+        },
+        "resistance_values": [
+            {
+                "category": "Physical",
+                "value": 2
+            }
+        ],
+        "qualities": ["Subtle"],
+        "rarity": 7,
+        "price": {
+            "value": 4,
+            "unit": "bu"
+        }
     }
 ]
