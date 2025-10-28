@@ -2900,6 +2900,41 @@
                     "value": 3,
                     "unit": "bu"
                 }
+            },
+            {
+                "name": "Carving Knife",
+                "reference": {
+                    "book": "WotW",
+                    "page": 100
+                },
+                "skill": "Melee",
+                "range": {
+                    "min": 0,
+                    "max": 0
+                },
+                "damage": 2,
+                "deadliness": 4,
+                "grips": [
+                    {
+                        "name": "1-hand",
+                        "effects": []
+                    },
+                    {
+                        "name": "2-hand",
+                        "effects": [
+                            {
+                                "attribute": "deadliness",
+                                "value_increase": 2
+                            }
+                        ]
+                    }
+                ],
+                "qualities": ["Concealable", "Mundane", "Razor-edged"],
+                "rarity": 1,
+                "price": {
+                    "value": 1,
+                    "unit": "koku"
+                }
             }
         ]
     }
