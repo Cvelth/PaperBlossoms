@@ -460,5 +460,47 @@
             "value": 4,
             "unit": "bu"
         }
+    },
+    {
+        "name": "Mirror Armour",
+        "reference": {
+            "book": "CotFW",
+            "page": 103
+        },
+        "resistance_values": [
+            {
+                "category": "Physical",
+                "value": 3
+            },
+            {
+                "category": "Supernatural",
+                "value": 1
+            }
+        ],
+        "qualities": ["Wargear"],
+        "rarity": 8,
+        "price": {
+            "value": 40,
+            "unit": "koku"
+        }
+    },
+    {
+        "name": "Unicorn Barding",
+        "reference": {
+            "book": "CotFW",
+            "page": 103
+        },
+        "resistance_values": [
+            {
+                "category": "Physical",
+                "value": 2
+            }
+        ],
+        "qualities": ["Ceremonial", "Wargear", "Resplendent"],
+        "rarity": 8,
+        "price": {
+            "value": 65,
+            "unit": "koku"
+        }
     }
 ]
