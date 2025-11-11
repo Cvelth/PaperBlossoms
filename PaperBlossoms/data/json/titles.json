@@ -2977,5 +2977,421 @@
                 "special_access": true
             }
         ]
+    },
+    {
+        "name": "Animal Handler",
+        "reference": {
+            "book": "CotFW",
+            "page": 134
+        },
+        "social_awards": [
+            {
+                "award_attribute": "glory",
+                "base_award": 5
+            }
+        ],
+        "xp_to_completion": 24,
+        "title_ability": "Instinctive Command",
+        "advancements": [
+            {
+                "name": "Trade skills",
+                "type": "skill_group",
+                "special_access": false
+            },
+            {
+                "name": "Martial Arts [Unarmed]",
+                "type": "skill_group",
+                "special_access": false
+            },
+            {
+                "name": "Medicine",
+                "type": "skill",
+                "special_access": false
+            },
+            {
+                "name": "Sentiment",
+                "type": "skill",
+                "special_access": false
+            },
+            {
+                "name": "Call to Ride",
+                "type": "technique",
+                "special_access": true
+            },
+            {
+                "name": "Incite Wrath",
+                "type": "technique",
+                "special_access": true
+            },
+            {
+                "name": "Touchstone of Courage",
+                "type": "technique",
+                "special_access": true
+            }
+        ]
+    },
+    {
+        "name": "Doomhunter",
+        "reference": {
+            "book": "CotFW",
+            "page": 135
+        },
+        "social_awards": [
+            {
+                "award_attribute": "status",
+                "base_award": 5
+            },
+            {
+                "award_attribute": "glory",
+                "base_award": 20
+            }
+        ],
+        "xp_to_completion": 28,
+        "title_ability": "Slayer of Immortals",
+        "advancements": [
+            {
+                "name": "Martial skills",
+                "type": "skill_group",
+                "special_access": false
+            },
+            {
+                "name": "Skulduggery",
+                "type": "skill",
+                "special_access": false
+            },
+            {
+                "name": "Survival",
+                "type": "skill",
+                "special_access": false
+            },
+            {
+                "name": "Theology",
+                "type": "skill",
+                "special_access": false
+            },
+            {
+                "name": "Rituals",
+                "rank": 1,
+                "type": "technique_group",
+                "special_access": true
+            },
+            {
+                "name": "Rituals",
+                "rank": 2,
+                "type": "technique_group",
+                "special_access": true
+            },
+            {
+                "name": "Skulk",
+                "type": "technique",
+                "special_access": true
+            },
+            {
+                "name": "Soul Sunder",
+                "type": "technique",
+                "special_access": true
+            }
+        ]
+    },
+    {
+        "name": "Imperial Peacekeeper",
+        "reference": {
+            "book": "CotFW",
+            "page": 135
+        },
+        "social_awards": [
+            {
+                "award_attribute": "status",
+                "base_award": 5
+            },
+            {
+                "award_attribute": "glory",
+                "base_award": 10
+            }
+        ],
+        "xp_to_completion": 18,
+        "title_ability": "By Imperial Command",
+        "advancements": [
+            {
+                "name": "Martial skills",
+                "type": "skill_group",
+                "special_access": false
+            },
+            {
+                "name": "Courtesy",
+                "type": "skill",
+                "special_access": false
+            },
+            {
+                "name": "Command",
+                "type": "skill",
+                "special_access": false
+            },
+            {
+                "name": "Sentiment",
+                "type": "skill",
+                "special_access": false
+            },
+            {
+                "name": "Earth Shūji",
+                "rank": 1,
+                "type": "technique_group",
+                "special_access": true
+            },
+            {
+                "name": "Earth Shūji",
+                "rank": 2,
+                "type": "technique_group",
+                "special_access": true
+            },
+            {
+                "name": "Cultural Exchange",
+                "type": "technique",
+                "special_access": true
+            },
+            {
+                "name": "Pillar of Calm",
+                "type": "technique",
+                "special_access": true
+            }
+        ]
+    },
+    {
+        "name": "Interpreter",
+        "reference": {
+            "book": "CotFW",
+            "page": 135
+        },
+        "social_awards": [
+            {
+                "award_attribute": "status",
+                "base_award": 5
+            },
+            {
+                "award_attribute": "glory",
+                "base_award": 5
+            }
+        ],
+        "xp_to_completion": 12,
+        "title_ability": "Linguistic Liaison",
+        "advancements": [
+            {
+                "name": "Social skills",
+                "type": "skill_group",
+                "special_access": false
+            },
+            {
+                "name": "Composition",
+                "type": "skill",
+                "special_access": false
+            },
+            {
+                "name": "Culture",
+                "type": "skill",
+                "special_access": false
+            },
+            {
+                "name": "Government",
+                "type": "skill",
+                "special_access": false
+            },
+            {
+                "name": "Sh\u016bji",
+                "rank": 1,
+                "type": "technique_group",
+                "special_access": true
+            },
+            {
+                "name": "Cultural Exchange",
+                "type": "technique",
+                "special_access": true
+            },
+            {
+                "name": "Traveler's Experience",
+                "type": "technique",
+                "special_access": true
+            }
+        ]
+    },
+    {
+        "name": "Scarlet Banners Ranger",
+        "reference": {
+            "book": "CotFW",
+            "page": 136
+        },
+        "social_awards": [
+            {
+                "award_attribute": "status",
+                "base_award": 5
+            },
+            {
+                "award_attribute": "glory",
+                "base_award": 10
+            }
+        ],
+        "xp_to_completion": 24,
+        "title_ability": "Master of the Lariat",
+        "advancements": [
+            {
+                "name": "Martial skills",
+                "type": "skill_group",
+                "special_access": false
+            },
+            {
+                "name": "Trade skills",
+                "type": "skill_group",
+                "special_access": false
+            },
+            {
+                "name": "Government",
+                "type": "skill",
+                "special_access": false
+            },
+            {
+                "name": "Sentiment",
+                "type": "skill",
+                "special_access": false
+            },
+            {
+                "name": "Kata",
+                "rank": 1,
+                "type": "technique_group",
+                "special_access": true
+            },
+            {
+                "name": "Kata",
+                "rank": 2,
+                "type": "technique_group",
+                "special_access": true
+            },
+            {
+                "name": "Cunning Omission",
+                "type": "technique",
+                "special_access": true
+            },
+            {
+                "name": "Thunderbolt Style",
+                "type": "technique",
+                "special_access": true
+            }
+        ]
+    },
+    {
+        "name": "Student of Names",
+        "reference": {
+            "book": "CotFW",
+            "page": 137
+        },
+        "social_awards": [
+            {
+                "award_attribute": "status",
+                "base_award": 5
+            },
+            {
+                "award_attribute": "glory",
+                "base_award": 10
+            }
+        ],
+        "xp_to_completion": 12,
+        "title_ability": "Meish\u016dd\u016d Secrets",
+        "advancements": [
+            {
+                "name": "Command",
+                "type": "skill",
+                "special_access": false
+            },
+            {
+                "name": "Culture",
+                "type": "skill",
+                "special_access": false
+            },
+            {
+                "name": "Survival",
+                "type": "skill",
+                "special_access": false
+            },
+            {
+                "name": "Theology",
+                "type": "skill",
+                "special_access": false
+            },
+            {
+                "name": "Invocations",
+                "rank": 1,
+                "type": "technique_group",
+                "special_access": true
+            },
+            {
+                "name": "Spiritual Survey",
+                "type": "technique",
+                "special_access": true
+            },
+            {
+                "name": "Threshold Barrier",
+                "type": "technique",
+                "special_access": true
+            }
+        ]
+    },
+    {
+        "name": "White Guard Veteran",
+        "reference": {
+            "book": "CotFW",
+            "page": 137
+        },
+        "social_awards": [
+            {
+                "award_attribute": "status",
+                "base_award": 10
+            },
+            {
+                "award_attribute": "glory",
+                "base_award": 15
+            }
+        ],
+        "xp_to_completion": 32,
+        "title_ability": "Unrelenting and Inevitable",
+        "advancements": [
+            {
+                "name": "Martial skills",
+                "type": "skill_group",
+                "special_access": false
+            },
+            {
+                "name": "Courtesy",
+                "type": "skill",
+                "special_access": false
+            },
+            {
+                "name": "Command",
+                "type": "skill",
+                "special_access": false
+            },
+            {
+                "name": "Survival",
+                "type": "skill",
+                "special_access": false
+            },
+            {
+                "name": "Theology",
+                "type": "skill",
+                "special_access": false
+            },
+            {
+                "name": "A Samurai's Fate",
+                "type": "technique",
+                "special_access": true
+            },
+            {
+                "name": "Stalking Leopard Style",
+                "type": "technique",
+                "special_access": true
+            },
+            {
+                "name": "Sudden Downpour Style",
+                "type": "technique",
+                "special_access": true
+            }
+        ]
     }
 ]
