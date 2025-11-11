@@ -280,6 +280,42 @@
                             "page": 87
                         },
                         "xp": 3
+                    },
+                    {
+                        "name": "Cautious Tread",
+                        "rank": 1,
+                        "reference": {
+                            "book": "CotFW",
+                            "page": 108
+                        },
+                        "xp": 3
+                    },
+                    {
+                        "name": "Stalking Leopard Style",
+                        "rank": 2,
+                        "reference": {
+                            "book": "CotFW",
+                            "page": 108
+                        },
+                        "xp": 3
+                    },
+                    {
+                        "name": "Sudden Downpour Style",
+                        "rank": 3,
+                        "reference": {
+                            "book": "CotFW",
+                            "page": 108
+                        },
+                        "xp": 3
+                    },
+                    {
+                        "name": "Swaying Grass Evasion",
+                        "rank": 3,
+                        "reference": {
+                            "book": "CotFW",
+                            "page": 108
+                        },
+                        "xp": 3
                     }
                 ]
             },
@@ -618,6 +654,33 @@
                             "page": 95
                         },
                         "xp": 3
+                    },
+                    {
+                        "name": "Distracting Flurry Style",
+                        "rank": 2,
+                        "reference": {
+                            "book": "CotFW",
+                            "page": 108
+                        },
+                        "xp": 3
+                    },
+                    {
+                        "name": "Scouring Wind Style",
+                        "rank": 3,
+                        "reference": {
+                            "book": "CotFW",
+                            "page": 109
+                        },
+                        "xp": 3
+                    },
+                    {
+                        "name": "Slashing Sandstorm Style",
+                        "rank": 2,
+                        "reference": {
+                            "book": "CotFW",
+                            "page": 109
+                        },
+                        "xp": 3
                     }
                 ]
             },
@@ -693,6 +756,24 @@
                         "reference": {
                             "book": "PoW",
                             "page": 92
+                        },
+                        "xp": 3
+                    },
+                    {
+                        "name": "Descending Swarm Shot",
+                        "rank": 3,
+                        "reference": {
+                            "book": "CotFW",
+                            "page": 110
+                        },
+                        "xp": 3
+                    },
+                    {
+                        "name": "Thunderbolt Style",
+                        "rank": 4,
+                        "reference": {
+                            "book": "CotFW",
+                            "page": 110
                         },
                         "xp": 3
                     }
@@ -1822,6 +1903,15 @@
                             "page": 109
                         },
                         "xp": 3
+                    },
+                    {
+                        "name": "The World is Not Heavy",
+                        "rank": 2,
+                        "reference": {
+                            "book": "CotFW",
+                            "page": 116
+                        },
+                        "xp": 3
                     }
                 ]
             }
@@ -2009,6 +2099,15 @@
                             "page": 120
                         },
                         "xp": 3
+                    },
+                    {
+                        "name": "Spiritual Survey",
+                        "rank": 2,
+                        "reference": {
+                            "book": "CotFW",
+                            "page": 110
+                        },
+                        "xp": 3
                     }
                 ]
             },
@@ -2113,6 +2212,15 @@
                             "page": 119
                         },
                         "xp": 3
+                    },
+                    {
+                        "name": "Center the World",
+                        "rank": 3,
+                        "reference": {
+                            "book": "CotFW",
+                            "page": 110
+                        },
+                        "xp": 3
                     }
                 ]
             },
@@ -2124,6 +2232,24 @@
                         "rank": 2,
                         "reference": {
                             "book": "CR",
+                            "page": 110
+                        },
+                        "xp": 3
+                    },
+                    {
+                        "name": "Shadow of Days",
+                        "rank": 3,
+                        "reference": {
+                            "book": "CotFW",
+                            "page": 110
+                        },
+                        "xp": 3
+                    },
+                    {
+                        "name": "Traveler's Experience",
+                        "rank": 2,
+                        "reference": {
+                            "book": "CotFW",
                             "page": 110
                         },
                         "xp": 3
@@ -2160,6 +2286,15 @@
                             "page": 98
                         },
                         "xp": 3
+                    },
+                    {
+                        "name": "Wayfinder's Instincts",
+                        "rank": 2,
+                        "reference": {
+                            "book": "CotFW",
+                            "page": 110
+                        },
+                        "xp": 3
                     }
                 ]
             },
@@ -2181,6 +2316,24 @@
                         "reference": {
                             "book": "FoV",
                             "page": 97
+                        },
+                        "xp": 3
+                    },
+                    {
+                        "name": "Cultural Exchange",
+                        "rank": 1,
+                        "reference": {
+                            "book": "CotFW",
+                            "page": 110
+                        },
+                        "xp": 3
+                    },
+                    {
+                        "name": "Protection of the Flock",
+                        "rank": 2,
+                        "reference": {
+                            "book": "CotFW",
+                            "page": 110
                         },
                         "xp": 3
                     }
@@ -2356,6 +2509,33 @@
                             "page": 99
                         },
                         "xp": 3
+                    },
+                    {
+                        "name": "Cunning Omission",
+                        "rank": 3,
+                        "reference": {
+                            "book": "CotFW",
+                            "page": 112
+                        },
+                        "xp": 3
+                    },
+                    {
+                        "name": "Entice with Offerings",
+                        "rank": 3,
+                        "reference": {
+                            "book": "CotFW",
+                            "page": 113
+                        },
+                        "xp": 3
+                    },
+                    {
+                        "name": "Trader's Intuition",
+                        "rank": 2,
+                        "reference": {
+                            "book": "CotFW",
+                            "page": 113
+                        },
+                        "xp": 3
                     }
                 ]
             },
@@ -2494,6 +2674,24 @@
                         "reference": {
                             "book": "FoV",
                             "page": 100
+                        },
+                        "xp": 3
+                    },
+                    {
+                        "name": "Cite the Facts",
+                        "rank": 2,
+                        "reference": {
+                            "book": "CotFW",
+                            "page": 114
+                        },
+                        "xp": 3
+                    },
+                    {
+                        "name": "Solidify Gratitude",
+                        "rank": 3,
+                        "reference": {
+                            "book": "CotFW",
+                            "page": 114
                         },
                         "xp": 3
                     }
@@ -2700,6 +2898,24 @@
                             "page": 79
                         },
                         "xp": 3
+                    },
+                    {
+                        "name": "Glorious Entrance",
+                        "rank": 2,
+                        "reference": {
+                            "book": "CotFW",
+                            "page": 114
+                        },
+                        "xp": 3
+                    },
+                    {
+                        "name": "Incite Wrath",
+                        "rank": 3,
+                        "reference": {
+                            "book": "CotFW",
+                            "page": 114
+                        },
+                        "xp": 3
                     }
                 ]
             },
@@ -2856,6 +3072,42 @@
                         "reference": {
                             "book": "FoV",
                             "page": 103
+                        },
+                        "xp": 3
+                    },
+                    {
+                        "name": "Call to Ride",
+                        "rank": 1,
+                        "reference": {
+                            "book": "CotFW",
+                            "page": 115
+                        },
+                        "xp": 3
+                    },
+                    {
+                        "name": "Complementary Experience",
+                        "rank": 3,
+                        "reference": {
+                            "book": "CotFW",
+                            "page": 115
+                        },
+                        "xp": 3
+                    },
+                    {
+                        "name": "Everyone Has a Price",
+                        "rank": 4,
+                        "reference": {
+                            "book": "CotFW",
+                            "page": 115
+                        },
+                        "xp": 3
+                    },
+                    {
+                        "name": "Horse Whisperer",
+                        "rank": 3,
+                        "reference": {
+                            "book": "CotFW",
+                            "page": 115
                         },
                         "xp": 3
                     }
@@ -3020,6 +3272,15 @@
                         "reference": {
                             "book": "FoV",
                             "page": 104
+                        },
+                        "xp": 3
+                    },
+                    {
+                        "name": "Appreciate the Scenery",
+                        "rank": 1,
+                        "reference": {
+                            "book": "CotFW",
+                            "page": 116
                         },
                         "xp": 3
                     }
