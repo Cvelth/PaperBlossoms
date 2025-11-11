@@ -443,6 +443,13 @@ def write_books(data_dir, books_enum):
         books_enum
     )
 
+    print('... to qualities')
+    write_enums(
+        data_dir.joinpath('json_schema/qualities.schema.json'),
+        'book',
+        books_enum
+    )
+
 
 def write_resistance(data_dir, resistance_enum):
 
