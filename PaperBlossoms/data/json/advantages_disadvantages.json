@@ -751,6 +751,36 @@
                 "ring": "Water",
                 "types": ["Interpersonal"],
                 "effects": ""
+            },
+            {
+                "name": "Affinity with [Animal Type]",
+                "reference": {
+                    "book": "CotFW",
+                    "page": 93
+                },
+                "ring": "Void",
+                "types": ["Fame", "Interpersonal"],
+                "effects": ""
+            },
+            {
+                "name": "Legal Scholarship",
+                "reference": {
+                    "book": "CotFW",
+                    "page": 93
+                },
+                "ring": "Air",
+                "types": ["Interpersonal", "Social"],
+                "effects": ""
+            },
+            {
+                "name": "Syncretic Philosophy",
+                "reference": {
+                    "book": "CotFW",
+                    "page": 93
+                },
+                "ring": "Air",
+                "types": ["Interpersonal", "Mental"],
+                "effects": ""
             }
         ]
     },
@@ -1195,6 +1225,36 @@
                 },
                 "ring": "Earth",
                 "types": ["Mental", "Physical"],
+                "effects": ""
+            },
+            {
+                "name": "Horse Racing",
+                "reference": {
+                    "book": "CotFW",
+                    "page": 94
+                },
+                "ring": "Air",
+                "types": ["Physical"],
+                "effects": ""
+            },
+            {
+                "name": "Hot Pot",
+                "reference": {
+                    "book": "CotFW",
+                    "page": 94
+                },
+                "ring": "Earth",
+                "types": ["Interpersonal", "Physical"],
+                "effects": ""
+            },
+            {
+                "name": "Stargazing",
+                "reference": {
+                    "book": "CotFW",
+                    "page": 94
+                },
+                "ring": "Void",
+                "types": ["Mental", "Spiritual"],
                 "effects": ""
             }
         ]
@@ -2051,6 +2111,36 @@
                 "ring": "Earth",
                 "types": ["Interpersonal", "Mental", "Spiritual"],
                 "effects": ""
+            },
+            {
+                "name": "Lost Family History",
+                "reference": {
+                    "book": "CotFW",
+                    "page": 95
+                },
+                "ring": "Earth",
+                "types": ["Interpersonal", "Material"],
+                "effects": ""
+            },
+            {
+                "name": "Penalty",
+                "reference": {
+                    "book": "CotFW",
+                    "page": 95
+                },
+                "ring": "Fire",
+                "types": ["Infamy", "Social"],
+                "effects": ""
+            },
+            {
+                "name": "Schism in Status",
+                "reference": {
+                    "book": "CotFW",
+                    "page": 96
+                },
+                "ring": "Water",
+                "types": ["Infamy", "Interpersonal"],
+                "effects": ""
             }
         ]
     },
@@ -2472,6 +2562,36 @@
                 "reference": {
                     "book": "WotW",
                     "page": 106
+                },
+                "ring": "Air",
+                "types": ["Mental"],
+                "effects": ""
+            },
+            {
+                "name": "Animal Signs",
+                "reference": {
+                    "book": "CotFW",
+                    "page": 96
+                },
+                "ring": "Void",
+                "types": ["Mental", "Spiritual"],
+                "effects": ""
+            },
+            {
+                "name": "Disdain for Urban Sprawl",
+                "reference": {
+                    "book": "CotFW",
+                    "page": 96
+                },
+                "ring": "Earth",
+                "types": ["Mental"],
+                "effects": ""
+            },
+            {
+                "name": "Tip of the Tongue",
+                "reference": {
+                    "book": "CotFW",
+                    "page": 96
                 },
                 "ring": "Air",
                 "types": ["Mental"],
