@@ -633,5 +633,29 @@
                 "wealth": 1
             }
         ]
+    },
+    {
+        "name": "Fox",
+        "reference": {
+            "book": "CotFW",
+            "page": 82
+        },
+        "type": "Minor",
+        "ring_increase": "Earth",
+        "skill_increase": "Survival",
+        "status": 30,
+        "families": [
+            {
+                "name": "Kitsune",
+                "reference": {
+                    "book": "CotFW",
+                    "page": 82
+                },
+                "ring_increase": ["Air", "Water"],
+                "skill_increase": ["Fitness", "Theology"],
+                "glory": 40,
+                "wealth": 2
+            }
+        ]
     }
 ]
