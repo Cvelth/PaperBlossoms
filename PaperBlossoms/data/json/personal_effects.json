@@ -1696,5 +1696,206 @@
             "book": "WotW",
             "page": 101
         }
+    },
+    {
+        "name": "Astrolabe",
+        "reference": {
+            "book": "CotFW",
+            "page": 102
+        },
+        "price": {
+            "value": 1,
+            "unit": "koku"
+        },
+        "rarity": 8
+    },
+    {
+        "name": "Horo (Arrow Cloak)",
+        "reference": {
+            "book": "CotFW",
+            "page": 102
+        },
+        "price": {
+            "value": 5,
+            "unit": "koku"
+        },
+        "rarity": 6
+    },
+    {
+        "name": "Lantern (Personal)",
+        "reference": {
+            "book": "CotFW",
+            "page": 102
+        },
+        "price": {
+            "value": 1,
+            "unit": "bu"
+        },
+        "rarity": 2
+    },
+    {
+        "name": "Mineral-Oil Lamp",
+        "reference": {
+            "book": "CotFW",
+            "page": 102
+        },
+        "price": {
+            "value": 6,
+            "unit": "koku"
+        },
+        "rarity": 8
+    },
+    {
+        "name": "Prayer Rug",
+        "reference": {
+            "book": "CotFW",
+            "page": 102
+        },
+        "price": {
+            "value": 2,
+            "unit": "koku"
+        },
+        "rarity": 9
+    },
+    {
+        "name": "Sand Clock",
+        "reference": {
+            "book": "CotFW",
+            "page": 102
+        },
+        "price": {
+            "value": 2,
+            "unit": "koku"
+        },
+        "rarity": 6
+    },
+    {
+        "name": "Traveling Board Games",
+        "reference": {
+            "book": "CotFW",
+            "page": 103
+        },
+        "price": {
+            "value": 1,
+            "unit": "bu"
+        },
+        "rarity": 4
+    },
+    {
+        "name": "Word of the Prophet",
+        "reference": {
+            "book": "CotFW",
+            "page": 102
+        },
+        "price": {
+            "value": 15,
+            "unit": "koku"
+        },
+        "rarity": 9
+    },
+    {
+        "name": "Travel Rations (eight days)",
+        "reference": {
+            "book": "CotFW",
+            "page": 92
+        },
+        "price": {
+            "value": 4,
+            "unit": "bu",
+            "_comment": "5 zeni * 8 = 40 zeni = 4 bu"
+        },
+        "rarity": 1,
+        "qualities": ["Mundane"]
+    },
+    {
+        "name": "Ide Traveling Pony",
+        "reference": {
+            "book": "CotFW",
+            "page": 141
+        }
+    },
+    {
+        "name": "Iuchi Riding Steed",
+        "reference": {
+            "book": "CotFW",
+            "page": 141
+        }
+    },
+    {
+        "name": "Moto Charger",
+        "reference": {
+            "book": "CotFW",
+            "page": 142
+        }
+    },
+    {
+        "name": "Shinjo Courser",
+        "reference": {
+            "book": "CotFW",
+            "page": 143
+        }
+    },
+    {
+        "name": "Utaku Warhorse",
+        "reference": {
+            "book": "CotFW",
+            "page": 143
+        }
+    },
+    {
+        "name": "Numerous Books",
+        "reference": {
+            "book": "CotFW",
+            "page": 89
+        }
+    },
+    {
+        "name": "Sweets (four servings)",
+        "reference": {
+            "book": "CotFW",
+            "page": 86
+        }
+    },
+    {
+        "name": "Meish\u014dd\u014d Talisman containing a Rank 1 Air Invocation",
+        "reference": {
+            "book": "CotFW",
+            "page": 106
+        }
+    },
+    {
+        "name": "Meish\u014dd\u014d Talisman containing a Rank 1 Water Invocation",
+        "reference": {
+            "book": "CotFW",
+            "page": 106
+        }
+    },
+    {
+        "name": "Meish\u014dd\u014d Talisman containing a Rank 1 Earth Invocation",
+        "reference": {
+            "book": "CotFW",
+            "page": 106
+        }
+    },
+    {
+        "name": "Meish\u014dd\u014d Talisman containing a Rank 1 Fire Invocation",
+        "reference": {
+            "book": "CotFW",
+            "page": 106
+        }
+    },
+    {
+        "name": "Meish\u014dd\u014d Talisman containing a Rank 1 Void Invocation",
+        "reference": {
+            "book": "CotFW",
+            "page": 106
+        }
+    },
+    {
+        "name": "Two Meish\u014dd\u014d Talismans each containing a Rank 1 Invocation",
+        "reference": {
+            "book": "CotFW",
+            "page": 106
+        }
     }
 ]
