@@ -912,6 +912,32 @@
                     "value": 3,
                     "unit": "koku"
                 }
+            },
+            {
+                "name": "Ganzu Ring Axe",
+                "reference": {
+                    "book": "CotFW",
+                    "page": 100
+                },
+                "skill": "Melee",
+                "range": {
+                    "min": 1,
+                    "max": 2
+                },
+                "damage": 4,
+                "deadliness": 7,
+                "grips": [
+                    {
+                        "name": "2-hand",
+                        "effects": []
+                    }
+                ],
+                "qualities": ["Cumbersome", "Hewing", "Wargear"],
+                "rarity": 9,
+                "price": {
+                    "value": 35,
+                    "unit": "koku"
+                }
             }
         ]
     },
@@ -1321,6 +1347,32 @@
                     "value": 10,
                     "unit": "koku"
                 }
+            },
+            {
+                "name": "Katar",
+                "reference": {
+                    "book": "CotFW",
+                    "page": 100
+                },
+                "skill": "Melee",
+                "range": {
+                    "min": 0,
+                    "max": 1
+                },
+                "damage": 3,
+                "deadliness": 5,
+                "grips": [
+                    {
+                        "name": "1-hand",
+                        "effects": []
+                    }
+                ],
+                "qualities": ["Hewing", "Razor-edged"],
+                "rarity": 8,
+                "price": {
+                    "value": 10,
+                    "unit": "koku"
+                }
             }
         ]
     },
@@ -1717,6 +1769,91 @@
                     "value": 30,
                     "unit": "koku"
                 }
+            },
+            {
+                "name": "Charging Lance",
+                "reference": {
+                    "book": "CotFW",
+                    "page": 100
+                },
+                "skill": "Melee",
+                "range": {
+                    "min": 1,
+                    "max": 2
+                },
+                "damage": 4,
+                "deadliness": 3,
+                "grips": [
+                    {
+                        "name": "2-hand",
+                        "effects": []
+                    },
+                    {
+                        "name": "2-hand (after a Move action on horseback)",
+                        "effects": [
+                            {
+                                "attribute": "damage",
+                                "value_increase": 3
+                            },
+                            {
+                                "attribute": "deadliness",
+                                "value_increase": 4
+                            },
+                            {
+                               "attribute": "quality",
+                                "value": "Hewing"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "2-hand (thrown)",
+                        "effects": [
+                            {
+                                "attribute": "range",
+                                "value": {
+                                    "min": 2,
+                                    "max": 3
+                                }
+                            },
+                            {
+                                "attribute": "skill",
+                                "value": "Ranged"
+                            }
+                        ]
+                    }
+                ],
+                "qualities": ["Cumbersome", "Wargear"],
+                "rarity": 6,
+                "price": {
+                    "value": 7,
+                    "unit": "koku"
+                }
+            },
+            {
+                "name": "Saddle Cutter",
+                "reference": {
+                    "book": "CotFW",
+                    "page": 100
+                },
+                "skill": "Melee",
+                "range": {
+                    "min": 1,
+                    "max": 2
+                },
+                "damage": 4,
+                "deadliness": 6,
+                "grips": [
+                    {
+                        "name": "1-hand",
+                        "effects": []
+                    }
+                ],
+                "qualities": ["Cumbersome", "Wargear"],
+                "rarity": 8,
+                "price": {
+                    "value": 15,
+                    "unit": "koku"
+                }
             }
         ]
     },
@@ -1878,6 +2015,32 @@
                     "value": 3,
                     "unit": "koku"
                 }
+            },
+            {
+                "name": "Catalpa Bow",
+                "reference": {
+                    "book": "CotFW",
+                    "page": 100
+                },
+                "skill": "Ranged",
+                "range": {
+                    "min": 2,
+                    "max": 5
+                },
+                "damage": 5,
+                "deadliness": 3,
+                "grips": [
+                    {
+                        "name": "2-hand",
+                        "effects": []
+                    }
+                ],
+                "qualities": ["Ceremonial", "Sacred"],
+                "rarity": 7,
+                "price": {
+                    "value": 25,
+                    "unit": "koku"
+                }
             }
         ]
     },
@@ -1959,6 +2122,32 @@
                 "rarity": 8,
                 "price": {
                     "value": 60,
+                    "unit": "koku"
+                }
+            },
+            {
+                "name": "Repeating Crossbow",
+                "reference": {
+                    "book": "CotFW",
+                    "page": 100
+                },
+                "skill": "Ranged",
+                "range": {
+                    "min": 2,
+                    "max": 4
+                },
+                "damage": 5,
+                "deadliness": 3,
+                "grips": [
+                    {
+                        "name": "2-hand",
+                        "effects": []
+                    }
+                ],
+                "qualities": ["Cumbersome"],
+                "rarity": 8,
+                "price": {
+                    "value": 50,
                     "unit": "koku"
                 }
             }
@@ -2350,6 +2539,60 @@
                     "value": 4,
                     "unit": "bu"
                 }
+            },
+            {
+                "name": "Fire Lance (Polearm)",
+                "reference": {
+                    "book": "CotFW",
+                    "page": 100
+                },
+                "skill": "Melee",
+                "range": {
+                    "min": 2,
+                    "max": 2
+                },
+                "damage": 4,
+                "deadliness": 3,
+                "grips": [
+                    {
+                        "name": "2-hand",
+                        "effects": []
+                    },
+                    {
+                        "name": "2-hand (firework launch)",
+                        "effects": [
+                            {
+                                "attribute": "damage",
+                                "value_increase": 3
+                            },
+                            {
+                                "attribute": "deadliness",
+                                "value_increase": 6
+                            },
+                            {
+                               "attribute": "quality",
+                                "value": "Prepare"
+                            },
+                            {
+                                "attribute": "range",
+                                "value": {
+                                    "min": 3,
+                                    "max": 5
+                                }
+                            },
+                            {
+                                "attribute": "skill",
+                                "value": "Ranged"
+                            }
+                        ]
+                    }
+                ],
+                "qualities": ["Cumbersome", "Wargear"],
+                "rarity": 9,
+                "price": {
+                    "value": 40,
+                    "unit": "koku"
+                }
             }
         ]
     },
@@ -2509,6 +2752,58 @@
                 "rarity": 9,
                 "price": {
                     "value": 50,
+                    "unit": "koku"
+                }
+            },
+            {
+                "name": "Ide Parasol Shield",
+                "reference": {
+                    "book": "CotFW",
+                    "page": 100
+                },
+                "skill": "Melee",
+                "range": {
+                    "min": 0,
+                    "max": 0
+                },
+                "damage": 2,
+                "deadliness": 3,
+                "grips": [
+                    {
+                        "name": "2-hand",
+                        "effects": []
+                    }
+                ],
+                "qualities": ["Concealable", "Cumbersome"],
+                "rarity": 9,
+                "price": {
+                    "value": 8,
+                    "unit": "koku"
+                }
+            },
+            {
+                "name": "Standing Shield",
+                "reference": {
+                    "book": "CotFW",
+                    "page": 100
+                },
+                "skill": "Melee",
+                "range": {
+                    "min": 0,
+                    "max": 0
+                },
+                "damage": 2,
+                "deadliness": 2,
+                "grips": [
+                    {
+                        "name": "2-hand",
+                        "effects": []
+                    }
+                ],
+                "qualities": ["Cumbersome", "Durable"],
+                "rarity": 8,
+                "price": {
+                    "value": 12,
                     "unit": "koku"
                 }
             }
