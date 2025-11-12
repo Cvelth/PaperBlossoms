@@ -340,12 +340,14 @@ void NewCharWizardPage7::initializePage()
     }
     //check for tech on part 8
     //if(ancestorIndex == 8){
-    if(heritage == deps->dal->translate("Stolen Knowledge")){
+    if(heritage == deps->dal->translate("Stolen Knowledge") ||
+       heritage == deps->dal->translate("Knowledge Exchange")) {
         if(!secondarychoice.isEmpty()){
             techText+= secondarychoice + ", ";
             techList.append(secondarychoice);
         }
     }
+
     if(techText.length()>=2) techText.chop(2);
     ui->nc7_techlist_label->setText(techText);
 
@@ -485,6 +487,40 @@ void NewCharWizardPage7::initializePage()
         }
     }
 
+    // Children of the Five Winds
+    if (heritage == deps->dal->translate("Ancestral Horse Line")) {
+        if (othereffects == deps->dal->translate("Utaku Horse"))
+            eqList.append(populateItemFields(deps->dal->translate("Utaku Warhorse"),
+                                             deps->inventoryRepository->qs_getitemtype("Utaku Warhorse")));
+        else if (othereffects == deps->dal->translate("Shinjo Horse"))
+            eqList.append(populateItemFields(deps->dal->translate("Shinjo Courser"),
+                                             deps->inventoryRepository->qs_getitemtype("Shinjo Courser")));
+        else if (othereffects == deps->dal->translate("Iuchi Horse"))
+            eqList.append(populateItemFields(deps->dal->translate("Iuchi Riding Steed"),
+                                             deps->inventoryRepository->qs_getitemtype("Iuchi Riding Steed")));
+        else if (othereffects == deps->dal->translate("Ide Horse"))
+            eqList.append(populateItemFields(deps->dal->translate("Ide Traveling Pony"),
+                                             deps->inventoryRepository->qs_getitemtype("Ide Traveling Pony")));
+        else if (othereffects == deps->dal->translate("Moto Horse"))
+            eqList.append(populateItemFields(deps->dal->translate("Moto Charger"),
+                                             deps->inventoryRepository->qs_getitemtype("Moto Charger")));
+        // else report_error()?
+
+    } else if (heritage == deps->dal->translate("Heart of a Horse")) {
+        eqList.append(populateItemFields(deps->dal->translate("Horse"),
+                                         deps->inventoryRepository->qs_getitemtype("Horse")));
+
+    } else if (heritage == deps->dal->translate("Sacred Wilderness")) {
+        eqList.append(populateItemFields(deps->dal->translate("Estate somewhere in your clan's territory"),
+                                         deps->inventoryRepository->qs_getitemtype("Estate somewhere in your clan's territory")));
+    
+    } else if (heritage == deps->dal->translate("Spirit Companion")) {
+        if (!othereffects.isEmpty()) {
+            eqList.append(populateItemFields(othereffects,
+                                             deps->inventoryRepository->qs_getitemtype(deps->dal->untranslate(othereffects))));
+        }
+    }
+
     if(eqText.length()>=2) eqText.chop(2);
     ui->nc7_gearlist_label->setText(eqText);
 
@@ -539,6 +575,7 @@ void NewCharWizardPage7::initializePage()
        heritage == deps->dal->translate("Born on the Battlefield") ||
        heritage == deps->dal->translate("Selfless Sentinel") ||
        heritage == deps->dal->translate("Right Hand of the Emperor") ||
+       heritage == deps->dal->translate("Lost Banner") ||
        (heritage == deps->dal->translate("Mighty Conqueror") && othereffects == deps->dal->translate("Glorious Deeds"))
 
             ){
@@ -567,6 +604,13 @@ void NewCharWizardPage7::initializePage()
         advText+= deps->dal->translate("Whispers of Failure")+", ";
         advList.append(deps->dal->translate("Whispers of Failure"));
     }
+
+    // Children of the Five Winds
+    if (heritage == deps->dal->translate("Heart of a Horse")) {
+        advText += deps->dal->translate("Karmic Tie") + ", ";
+        advList.append(deps->dal->translate("Karmic Tie"));
+    }
+
     if(advText.length()>=2) advText.chop(2);
     ui->nc7_advlist_label->setText(advText);
     qDebug() << advList;
@@ -680,7 +724,11 @@ QMap<QString, int> NewCharWizardPage7::calcSkills(){
            //FoV
            heritage ==   deps->dal->translate("Strategic Mastermind")||
            heritage ==   deps->dal->translate("Victory against Invaders")||
-           heritage ==   deps->dal->translate("Shamed by Defeat")
+           heritage ==   deps->dal->translate("Shamed by Defeat") ||
+           
+           // Children of the Five Winds
+           heritage == deps->dal->translate("Splintered Loyalties")
+
             ){
         skills.append(field("q18OtherEffects").toString());
 
@@ -884,6 +932,18 @@ QMap<QString, int> NewCharWizardPage7::calcRings(){
         ringmap[field("q18Spec1").toString()]++;
         ringmap[field("q18Spec2").toString()]--;
         qDebug()<< "adjusting based on Ring Exchange";
+    }
+
+    // Children of the Five Winds
+    if (field("q18OtherEffects").toString() == deps->dal->translate("Air Ring") ||
+        field("q18OtherEffects").toString() == deps->dal->translate("Water Ring") ||
+        field("q18OtherEffects").toString() == deps->dal->translate("Earth Ring") ||
+        field("q18OtherEffects").toString() == deps->dal->translate("Fire Ring") ||
+        field("q18OtherEffects").toString() == deps->dal->translate("Void Ring")
+    ) {
+        ringmap[field("q18OtherEffects").toString().split(' ')[0]]++;
+        ringmap[field("q18Spec2").toString()]--;
+        qDebug()<< "adjusting because of `Spiritual Debt` heritage";
     }
 
     ring_overflow = 0; //saving off ring overflow for validation later
