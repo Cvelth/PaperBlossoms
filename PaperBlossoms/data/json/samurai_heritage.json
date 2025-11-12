@@ -513,7 +513,7 @@
         },
         "other_effects": {
             "type": "Skill",
-            "instructions": "Roll a ten-sided die again to determine a skill to aoid in restoring your ancestor's name; gain +1 rank in that skill.",
+            "instructions": "Roll a ten-sided die again to determine a skill to aid in restoring your ancestor's name; gain +1 rank in that skill.",
             "outcomes": [
                 {
                     "roll": {
