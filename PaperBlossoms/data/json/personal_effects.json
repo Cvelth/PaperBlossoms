@@ -647,18 +647,6 @@
         }
     },
     {
-        "name": "Astrolabe",
-        "reference": {
-            "book": "Mantis",
-            "page": 9
-        },
-        "price": {
-            "value": 30,
-            "unit": "koku"
-        },
-        "rarity": 10
-    },
-    {
         "name": "Fishing Rod and Line",
         "reference": {
             "book": "Mantis",
