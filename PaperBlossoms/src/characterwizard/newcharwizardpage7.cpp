@@ -487,6 +487,14 @@ void NewCharWizardPage7::initializePage()
         }
     }
 
+    // Writ of the Wilds
+    if (heritage == deps->dal->translate("At One with Nature")) {
+        if (!othereffects.isEmpty()) {
+            eqList.append(populateItemFields(othereffects,
+                                             deps->inventoryRepository->qs_getitemtype(deps->dal->untranslate(othereffects))));
+        }
+    }
+
     // Children of the Five Winds
     if (heritage == deps->dal->translate("Ancestral Horse Line")) {
         if (othereffects == deps->dal->translate("Utaku Horse"))
@@ -575,6 +583,10 @@ void NewCharWizardPage7::initializePage()
        heritage == deps->dal->translate("Born on the Battlefield") ||
        heritage == deps->dal->translate("Selfless Sentinel") ||
        heritage == deps->dal->translate("Right Hand of the Emperor") ||
+       heritage == deps->dal->translate("Medical Innovator") ||
+       heritage == deps->dal->translate("Gaijin Consort") ||
+       heritage == deps->dal->translate("Revered Parent") ||
+       heritage == deps->dal->translate("Path to Enlightenment") ||
        heritage == deps->dal->translate("Lost Banner") ||
        (heritage == deps->dal->translate("Mighty Conqueror") && othereffects == deps->dal->translate("Glorious Deeds"))
 
@@ -725,6 +737,9 @@ QMap<QString, int> NewCharWizardPage7::calcSkills(){
            heritage ==   deps->dal->translate("Strategic Mastermind")||
            heritage ==   deps->dal->translate("Victory against Invaders")||
            heritage ==   deps->dal->translate("Shamed by Defeat") ||
+               
+           // Writ of the Wilds
+           heritage == deps->dal->translate("Ties to the Perfect Land Sect") ||
            
            // Children of the Five Winds
            heritage == deps->dal->translate("Splintered Loyalties")

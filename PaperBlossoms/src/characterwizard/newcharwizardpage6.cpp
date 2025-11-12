@@ -80,6 +80,7 @@ void NewCharWizardPage6::initializePage()
     ui->heritagetable_comboBox->addItem("CoS");
     ui->heritagetable_comboBox->addItem("CR");
     ui->heritagetable_comboBox->addItem("FoV");
+    ui->heritagetable_comboBox->addItem("WotW");
     ui->heritagetable_comboBox->addItem("CotFW");
     ui->heritagetable_comboBox->setCurrentIndex(0);
 
@@ -375,6 +376,10 @@ void NewCharWizardPage6::buildq18UI(){ //this is all still in initializePage
              curAncestor == deps->dal->translate("Born on the Battlefield") ||
              curAncestor == deps->dal->translate("Selfless Sentinel") ||
              curAncestor == deps->dal->translate("Right Hand of the Emperor") ||
+             curAncestor == deps->dal->translate("Medical Innovator") ||
+             curAncestor == deps->dal->translate("Gaijin Consort") ||
+             curAncestor == deps->dal->translate("Revered Parent") ||
+             curAncestor == deps->dal->translate("Path to Enlightenment") ||
              curAncestor == deps->dal->translate("Lost Banner")
 
              ){
@@ -1112,6 +1117,9 @@ QMap<QString, int> NewCharWizardPage6::calcSkills(){
                heritage ==   deps->dal->translate("Strategic Mastermind")||
                heritage ==   deps->dal->translate("Victory against Invaders")||
                heritage ==   deps->dal->translate("Shamed by Defeat") ||
+               
+               // Writ of the Wilds
+               heritage == deps->dal->translate("Ties to the Perfect Land Sect") ||
                
                // Children of the Five Winds
                heritage == deps->dal->translate("Splintered Loyalties")
