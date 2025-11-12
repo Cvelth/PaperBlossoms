@@ -1655,6 +1655,191 @@
             "min": 1,
             "max": 1
         },
+        "result": "At One with Nature",
+        "other_effects": {
+            "type": "starting item",
+            "instructions": "Roll a ten-sided die to determine what item has followed your lineage since your ancestor was recognised by the kami as a true protector of nature.",
+            "outcomes": [
+                {
+                    "roll": {
+                        "min": 1,
+                        "max": 3
+                    },
+                    "outcome": "Boon of Fukurokujin [Omamori]"
+                },
+                {
+                    "roll": {
+                        "min": 4,
+                        "max": 6
+                    },
+                    "outcome": "Bowyer's Kit"
+                },
+                {
+                    "roll": {
+                        "min": 7,
+                        "max": 9
+                    },
+                    "outcome": "Tent (small)"
+                },
+                {
+                    "roll": {
+                        "min": 10,
+                        "max": 10
+                    },
+                    "outcome": "Finger of Jade"
+                }
+            ]
+        },
+        "modifiers": {
+            "glory": 5,
+            "honor": 0,
+            "status": 0
+        },
+        "source": "WotW"
+    },
+    {
+        "roll": {
+            "min": 2,
+            "max": 3
+        },
+        "result": "Ties to the Perfect Land Sect",
+        "other_effects": {
+            "type": "Skill",
+            "instructions": "Roll a ten-sided die to determine what skill related to helping those who are looked down upon was passed down through your family.",
+            "outcomes": [
+                {
+                    "roll": {
+                        "min": 1,
+                        "max": 3
+                    },
+                    "outcome": "Labor"
+                },
+                {
+                    "roll": {
+                        "min": 4,
+                        "max": 6
+                    },
+                    "outcome": "Sentiment"
+                },
+                {
+                    "roll": {
+                        "min": 7,
+                        "max": 9
+                    },
+                    "outcome": "Medicine"
+                },
+                {
+                    "roll": {
+                        "min": 10,
+                        "max": 10
+                    },
+                    "outcome": "Performance"
+                }
+            ]
+        },
+        "modifiers": {
+            "glory": -5,
+            "honor": 0,
+            "status": 0
+        },
+        "source": "WotW"
+    },
+    {
+        "roll": {
+            "min": 4,
+            "max": 5
+        },
+        "result": "Medical Innovator",
+        "other_effects": {
+            "type": "Distinction",
+            "instructions": "Gain the Knowledgable Wilderness Guide distinction found in WotW page 102.",
+            "outcomes": [
+                {
+                    "outcome": "Knowledgeable Wilderness Guide"
+                }
+            ]
+        },
+        "modifiers": {
+            "glory": 0,
+            "honor": 5,
+            "status": 0
+        },
+        "source": "WotW"
+    },
+    {
+        "roll": {
+            "min": 6,
+            "max": 7
+        },
+        "result": "Gaijin Consort",
+        "other_effects": {
+            "type": "Distinction",
+            "instructions": "Gain the Ally [Gaijin Group] distinction found on page 101 of the Core Rulebook. Work with your GM to select an appropriate Gaijin Group, such as one of the Yobanjin factions found beginning on page 36 of the book.",
+            "outcomes": [
+                {
+                    "outcome": "Ally [Name]"
+                }
+            ]
+        },
+        "modifiers": {
+            "glory": -3,
+            "honor": -2,
+            "status": 0
+        },
+        "source": "WotW"
+    },
+    {
+        "roll": {
+            "min": 8,
+            "max": 9
+        },
+        "result": "Revered Parent",
+        "other_effects": {
+            "type": "Distinction",
+            "instructions": "You gain one Distinction of the following of your choice.",
+            "outcomes": [
+                {
+                    "outcome": "Kissh\u016bten's Blessing"
+                },
+                {
+                    "outcome": "Famously Lucky"
+                }
+            ]
+        },
+        "modifiers": {
+            "glory": 0,
+            "honor": 0,
+            "status": 3
+        },
+        "source": "WotW"
+    },
+    {
+        "roll": {
+            "min": 10,
+            "max": 10
+        },
+        "result": "Path to Enlightenment",
+        "other_effects": {
+            "type": "Distinction",
+            "instructions": "You gain the Enlightenment Passion found on page 112 of the Core Rulebook. Additionally, you remove 1 additional strife when activating this passion. You may still select a different passion as normal during character creation.",
+            "outcomes": [
+                {
+                    "outcome": "Enlightenment"
+                }
+            ]
+        },
+        "modifiers": {
+            "glory": 3,
+            "honor": 3,
+            "status": 0
+        },
+        "source": "WotW"
+    },
+    {
+        "roll": {
+            "min": 1,
+            "max": 1
+        },
         "result": "Ancestral Horse Line",
         "other_effects": {
             "type": "Ancestral Horse Line",
