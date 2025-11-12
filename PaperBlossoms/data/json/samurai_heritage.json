@@ -1649,5 +1649,348 @@
             "status": 3
         },
         "source": "FoV"
+    },
+    {
+        "roll": {
+            "min": 1,
+            "max": 1
+        },
+        "result": "Ancestral Horse Line",
+        "other_effects": {
+            "type": "Ancestral Horse Line",
+            "instructions": "You add an additional Warhorse to your starting items. Roll a ten-sided die again to determine the Horse's original family. New Horse options can be found beginning on CotFW page 141.",
+            "outcomes": [
+                {
+                    "roll": {
+                        "min": 1,
+                        "max": 2
+                    },
+                    "outcome": "Utaku Horse"
+                },
+                {
+                    "roll": {
+                        "min": 3,
+                        "max": 4
+                    },
+                    "outcome": "Shinjo Horse"
+                },
+                {
+                    "roll": {
+                        "min": 5,
+                        "max": 6
+                    },
+                    "outcome": "Iuchi Horse"
+                },
+                {
+                    "roll": {
+                        "min": 7,
+                        "max": 8
+                    },
+                    "outcome": "Ide Horse"
+                },
+                {
+                    "roll": {
+                        "min": 9,
+                        "max": 10
+                    },
+                    "outcome": "Moto Horse"
+                }
+            ]
+        },
+        "modifiers": {
+            "glory": 3,
+            "honor": 0,
+            "status": 0
+        },
+        "source": "CotFW"
+    },
+    {
+        "roll": {
+            "min": 2,
+            "max": 2
+        },
+        "result": "Heart of a Horse",
+        "other_effects": {
+            "type": "starting item and distinction",
+            "instructions": "You gain a horse (if you did not start with one), and you gain the Karmic Tie (Void) distinction (see page 108 of the Core Rulebook) with it.",
+            "outcomes": [
+                {
+                    "outcome": "Karmic Tie (Void) with your horse (gain one if you don't own one)"
+                }
+            ]
+        },
+        "modifiers": {
+            "glory": 3,
+            "honor": 0,
+            "status": -3
+        },
+        "source": "CotFW"
+    },
+    {
+        "roll": {
+            "min": 3,
+            "max": 4
+        },
+        "result": "Knowledge Exchange",
+        "other_effects": {
+            "type": "Technique",
+            "instructions": "You know one additional technique. Roll a ten-sided die again to determine the category, and then select one technique with a prerequisite of school rank 1 and learn that technique. You can perform that technique even if it is not normally allowed by your school.",
+            "outcomes": [
+                {
+                    "roll": {
+                        "min": 1,
+                        "max": 3
+                    },
+                    "outcome": "Kata"
+                },
+                {
+                    "roll": {
+                        "min": 4,
+                        "max": 6
+                    },
+                    "outcome": "Sh\u016bji"
+                },
+                {
+                    "roll": {
+                        "min": 7,
+                        "max": 7
+                    },
+                    "outcome": "Rituals"
+                },
+                {
+                    "roll": {
+                        "min": 8,
+                        "max": 8
+                    },
+                    "outcome": "Invocations"
+                },
+                {
+                    "roll": {
+                        "min": 9,
+                        "max": 9
+                    },
+                    "outcome": "Kih\u014d"
+                },
+                {
+                    "roll": {
+                        "min": 10,
+                        "max": 10
+                    },
+                    "outcome": "Mah\u014d or Ninjutsu"
+                }
+            ]
+        },
+        "modifiers": {
+            "glory": -5,
+            "honor": 0,
+            "status": 0
+        },
+        "source": "CotFW"
+    },
+    {
+        "roll": {
+            "min": 5,
+            "max": 5
+        },
+        "result": "Lost Banner",
+        "other_effects": {
+            "type": "Distinction",
+            "instructions": "You gain the Indomitable Will distinction (see page 106 of the Core Rulebook). This can be assigned in excess of the normal limitations on Advantages at Character Creation.",
+            "outcomes": [
+                {
+                    "outcome": "Indomitable Will"
+                }
+            ]
+        },
+        "modifiers": {
+            "glory": -5,
+            "honor": 0,
+            "status": 0
+        },
+        "source": "CotFW"
+    },
+    {
+        "roll": {
+            "min": 6,
+            "max": 7
+        },
+        "result": "Splintered Loyalties",
+        "modifiers": {
+            "glory": 0,
+            "honor": 0,
+            "status": -5
+        },
+        "other_effects": {
+            "type": "Skill",
+            "instructions": "Roll a ten-sided die again to determine the skill you learned from your other culture; gain +1 rank in that skill.",
+            "outcomes": [
+                {
+                    "roll": {
+                        "min": 1,
+                        "max": 2
+                    },
+                    "outcome": "Aesthetics"
+                },
+                {
+                    "roll": {
+                        "min": 3,
+                        "max": 4
+                    },
+                    "outcome": "Courtesy"
+                },
+                {
+                    "roll": {
+                        "min": 5,
+                        "max": 6
+                    },
+                    "outcome": "Culture"
+                },
+                {
+                    "roll": {
+                        "min": 7,
+                        "max": 8
+                    },
+                    "outcome": "Meditation"
+                },
+                {
+                    "roll": {
+                        "min": 9,
+                        "max": 10
+                    },
+                    "outcome": "Commerce"
+                }
+            ]
+        },
+        "source": "CotFW"
+    },
+    {
+        "roll": {
+            "min": 8,
+            "max": 8
+        },
+        "result": "Sacred Wilderness",
+        "other_effects": {
+            "type": "starting item",
+            "instructions": "You add an Estate to your starting items somewhere within your Clan's Territory. When at your Estate, you and your allies receive food, shelter, and medical care for free.",
+            "outcomes": [
+                {
+                    "outcome": "Estate somewhere in your clan's territory"
+                }
+            ]
+        },
+        "modifiers": {
+            "glory": 0,
+            "honor": 0,
+            "status": 5
+        },
+        "source": "CotFW"
+    },
+    {
+        "roll": {
+            "min": 9,
+            "max": 9
+        },
+        "result": "Spirit Companion",
+        "other_effects": {
+            "type": "Invocation",
+            "instructions": "You know one additional Meish/u016dd/u016d Talisman. Roll a ten-sided die again to determine the Ring of the spirit. Then, select an Invocation of that ring type with a prerequisite of School Rank 1 and learn that Invocation. You can perform that Invocation even if it is not normally allowed by your School.",
+            "outcomes": [
+                {
+                    "roll": {
+                        "min": 1,
+                        "max": 2
+                    },
+                    "outcome": "Meish\u014dd\u014d Talisman containing a Rank 1 Air Invocation"
+                },
+                {
+                    "roll": {
+                        "min": 3,
+                        "max": 4
+                    },
+                    "outcome": "Meish\u014dd\u014d Talisman containing a Rank 1 Water Invocation"
+                },
+                {
+                    "roll": {
+                        "min": 5,
+                        "max": 6
+                    },
+                    "outcome": "Meish\u014dd\u014d Talisman containing a Rank 1 Earth Invocation"
+                },
+                {
+                    "roll": {
+                        "min": 7,
+                        "max": 8
+                    },
+                    "outcome": "Meish\u014dd\u014d Talisman containing a Rank 1 Fire Invocation"
+                },
+                {
+                    "roll": {
+                        "min": 9,
+                        "max": 10
+                    },
+                    "outcome": "Meish\u014dd\u014d Talisman containing a Rank 1 Void Invocation"
+                }
+            ]
+        },
+        "modifiers": {
+            "glory": -3,
+            "honor": 0,
+            "status": 3
+        },
+        "source": "CotFW"
+    },
+    {
+        "roll": {
+            "min": 10,
+            "max": 10
+        },
+        "result": "Spiritual Debt",
+        "other_effects": {
+            "type": "Ring",
+            "instructions": "Roll a ten-sided die to determine the spirit's Ring. You may increase the value of your matching Ring by 1 and reduce the value of a different Ring by 1 (this still cannot raise a ring above 3.",
+            "outcomes": [
+                {
+                    "roll": {
+                        "min": 1,
+                        "max": 2
+                    },
+                    "outcome": "Air Ring"
+                },
+                {
+                    "roll": {
+                        "min": 3,
+                        "max": 4
+                    },
+                    "outcome": "Water Ring"
+                },
+                {
+                    "roll": {
+                        "min": 5,
+                        "max": 6
+                    },
+                    "outcome": "Earth Ring"
+                },
+                {
+                    "roll": {
+                        "min": 7,
+                        "max": 8
+                    },
+                    "outcome": "Fire Ring"
+                },
+                {
+                    "roll": {
+                        "min": 9,
+                        "max": 10
+                    },
+                    "outcome": "Void Ring"
+                }
+            ]
+        },
+        "modifiers": {
+            "glory": -3,
+            "honor": 3,
+            "status": 0
+        },
+        "source": "CotFW"
     }
 ]
