@@ -3230,6 +3230,32 @@
                     "value": 1,
                     "unit": "koku"
                 }
+            },
+            {
+                "name": "Shinjo Horsebow",
+                "reference": {
+                    "book": "CotFW",
+                    "page": 48
+                },
+                "skill": "Ranged",
+                "range": {
+                    "min": 2,
+                    "max": 4
+                },
+                "damage": 4,
+                "deadliness": 5,
+                "grips": [
+                    {
+                        "name": "2-hand",
+                        "effects": []
+                    }
+                ],
+                "qualities": ["Wargear"],
+                "rarity": 4,
+                "price": {
+                    "value": 6,
+                    "unit": "koku"
+                }
             }
         ]
     }
