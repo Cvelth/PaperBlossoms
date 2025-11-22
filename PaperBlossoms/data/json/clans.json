@@ -607,6 +607,17 @@
                 "skill_increase": ["Fitness", "Tactics"],
                 "glory": 35,
                 "wealth": 3
+            },
+            {
+                "name": "Foreheshu",
+                "reference": {
+                    "book": "Legacies of War",
+                    "page": 16
+                },
+                "ring_increase": ["Earth", "Water"],
+                "skill_increase": ["Labor", "Theology"],
+                "glory": 30,
+                "wealth": 4
             }
         ]
     },
