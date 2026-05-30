@@ -24,6 +24,7 @@
 #include "addadvancedialog.h"
 #include "ui_addadvancedialog.h"
 #include "../repository/dataaccesslayer.h"
+#include <algorithm>
 #include <QPushButton>
 #include <QSqlRecord>
 #include <QDebug>
@@ -386,7 +387,7 @@ void AddAdvanceDialog::on_advtype_currentIndexChanged(const QString &arg1)
             typelist<<str;
         }
 
-        qSort(typelist);
+        std::sort(typelist.begin(), typelist.end());
         ui->advchooser_combobox->addItems(typelist);
 
         //tech cost is variable now -- hide the text and clear it
