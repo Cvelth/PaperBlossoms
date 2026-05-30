@@ -19,3 +19,9 @@ TestPaperBlossoms/moc_predefs.h
 PaperBlossoms/qrc_*.cpp
 PaperBlossoms/ui_*.h
 PaperBlossoms/moc_*.cpp
+
+# This gitignore entry is managed by the agent-runner:
+.agent-state/**
+!.agent-state/TODO.yaml
+.STOP
+.RESTART
