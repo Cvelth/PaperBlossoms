@@ -168,7 +168,6 @@ void NewCharWizardPage7::initializePage()
     else{
         /////////// PoW - Ronin questions
         /////////////////// get free text values ////////////////
-        QString notes = "";
         notes +=     tr("4.In and out of trouble:\n") + school_standout;
         notes += tr("\n\n7.Known for: \n") + clanrelationship;
         notes += tr("\n\n8. Bushido: \n") + bushido;
