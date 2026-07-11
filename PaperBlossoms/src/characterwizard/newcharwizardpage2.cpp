@@ -129,7 +129,10 @@ void NewCharWizardPage2::equipSelectionChanged(const QString newText){
         "One Item of Rarity 4 or Lower",
         "One Item of Rarity 5 or Lower",
         "One Item of Rarity 6 or Lower",
-        //"Yumi and quiver of arrows with three special arrows" //special -- handle at end
+        //"Yumi and quiver of arrows with three special arrows", //special -- handle at end
+
+        // WofW
+        "Two Items of Rarity 2 or Lower that the Nezumi Scavenged",
     };
     ui->equipSpecialWidget->clear();
 
@@ -196,6 +199,12 @@ void NewCharWizardPage2::handleSpecCases(QString speccase){
     else if (specCase == "Two Weapons of Rarity 7 or Lower"){
         ui->equipSpecialWidget->addCBox(deps->inventoryRepository->qsl_getweaponsunderrarity(7));
         ui->equipSpecialWidget->addCBox(deps->inventoryRepository->qsl_getweaponsunderrarity(7));
+    }
+
+    // WofW
+    else if (specCase == "Two Items of Rarity 2 or Lower that the Nezumi Scavenged") {
+        ui->equipSpecialWidget->addCBox(deps->inventoryRepository->qsl_getitemsunderrarity(2));
+        ui->equipSpecialWidget->addCBox(deps->inventoryRepository->qsl_getitemsunderrarity(2));
     }
 }
 
@@ -393,7 +402,10 @@ void NewCharWizardPage2::doEquip(const QString school){
         "One Item of Rarity 4 or Lower",
         "One Item of Rarity 5 or Lower",
         "One Item of Rarity 6 or Lower",
-        "Yumi and quiver of arrows with three special arrows" //special -- handle at end
+        "Yumi and quiver of arrows with three special arrows", //special -- handle at end
+
+        // WofW
+        "Two Items of Rarity 2 or Lower that the Nezumi Scavenged",
     };
     const QList<QStringList> equipsets = deps->schoolsRepository->ql_getlistsofeq(schoolname);              //get a list of equipsets
     if(equipsets.count()>0){                                                //if this returned nothing, time to bail

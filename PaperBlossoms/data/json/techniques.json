@@ -15,6 +15,16 @@
                         "xp": 3
                     },
                     {
+                        "name": "Bear's Swipe Style",
+                        "_comment": ["Bushi", "Monk"],
+                        "rank": 1,
+                        "reference": {
+                            "book": "WotW",
+                            "page": 114
+                        },
+                        "xp": 3
+                    },
+                    {
                         "name": "Breath of Wind Style",
                         "rank": 4,
                         "reference": {
@@ -107,6 +117,16 @@
                         "xp": 3
                     },
                     {
+                        "name": "Serpent's Twist Style",
+                        "_comment": ["Bushi", "Monk"],
+                        "rank": 2,
+                        "reference": {
+                            "book": "WotW",
+                            "page": 114
+                        },
+                        "xp": 3
+                    },
+                    {
                         "name": "Soaring Slice",
                         "rank": 1,
                         "reference": {
@@ -170,11 +190,31 @@
                         "xp": 3
                     },
                     {
+                        "name": "Swallow's Dart Style",
+                        "_comment": ["Bushi", "Monk"],
+                        "rank": 2,
+                        "reference": {
+                            "book": "WotW",
+                            "page": 115
+                        },
+                        "xp": 3
+                    },
+                    {
                         "name": "Tactical Assessment",
                         "rank": 2,
                         "reference": {
                             "book": "Core",
                             "page": 178
+                        },
+                        "xp": 3
+                    },
+                    {
+                        "name": "Tiger's Lunge Style",
+                        "_comment": ["Bushi", "Monk"],
+                        "rank": 3,
+                        "reference": {
+                            "book": "WotW",
+                            "page": 115
                         },
                         "xp": 3
                     },
@@ -240,6 +280,42 @@
                             "page": 87
                         },
                         "xp": 3
+                    },
+                    {
+                        "name": "Cautious Tread",
+                        "rank": 1,
+                        "reference": {
+                            "book": "CotFW",
+                            "page": 108
+                        },
+                        "xp": 3
+                    },
+                    {
+                        "name": "Stalking Leopard Style",
+                        "rank": 2,
+                        "reference": {
+                            "book": "CotFW",
+                            "page": 108
+                        },
+                        "xp": 3
+                    },
+                    {
+                        "name": "Sudden Downpour Style",
+                        "rank": 3,
+                        "reference": {
+                            "book": "CotFW",
+                            "page": 108
+                        },
+                        "xp": 3
+                    },
+                    {
+                        "name": "Swaying Grass Evasion",
+                        "rank": 3,
+                        "reference": {
+                            "book": "CotFW",
+                            "page": 108
+                        },
+                        "xp": 3
                     }
                 ]
             },
@@ -252,6 +328,33 @@
                         "reference": {
                             "book": "Core",
                             "page": 179
+                        },
+                        "xp": 3
+                    },
+                    {
+                        "name": "Flexible Grip",
+                        "rank": 1,
+                        "reference": {
+                            "book": "WotW",
+                            "page": 115
+                        },
+                        "xp": 3
+                    },
+                    {
+                        "name": "Howling Gale Defense",
+                        "rank": 2,
+                        "reference": {
+                            "book": "WotW",
+                            "page": 116
+                        },
+                        "xp": 3
+                    },
+                    {
+                        "name": "Heron's Grasp Style",
+                        "rank": 3,
+                        "reference": {
+                            "book": "WotW",
+                            "page": 116
                         },
                         "xp": 3
                     },
@@ -301,6 +404,15 @@
                         "xp": 3
                     },
                     {
+                        "name": "Serow's Leap Style",
+                        "rank": 3,
+                        "reference": {
+                            "book": "WotW",
+                            "page": 116
+                        },
+                        "xp": 3
+                    },
+                    {
                         "name": "Spinning Blades Style",
                         "rank": 2,
                         "reference": {
@@ -315,6 +427,15 @@
                         "reference": {
                             "book": "Core",
                             "page": 180
+                        },
+                        "xp": 3
+                    },
+                    {
+                        "name": "Tumbling Oak Style",
+                        "rank": 4,
+                        "reference": {
+                            "book": "WotW",
+                            "page": 116
                         },
                         "xp": 3
                     },
@@ -533,6 +654,33 @@
                             "page": 95
                         },
                         "xp": 3
+                    },
+                    {
+                        "name": "Distracting Flurry Style",
+                        "rank": 2,
+                        "reference": {
+                            "book": "CotFW",
+                            "page": 108
+                        },
+                        "xp": 3
+                    },
+                    {
+                        "name": "Scouring Wind Style",
+                        "rank": 3,
+                        "reference": {
+                            "book": "CotFW",
+                            "page": 109
+                        },
+                        "xp": 3
+                    },
+                    {
+                        "name": "Slashing Sandstorm Style",
+                        "rank": 2,
+                        "reference": {
+                            "book": "CotFW",
+                            "page": 109
+                        },
+                        "xp": 3
                     }
                 ]
             },
@@ -610,6 +758,79 @@
                             "page": 92
                         },
                         "xp": 3
+                    },
+                    {
+                        "name": "Descending Swarm Shot",
+                        "rank": 3,
+                        "reference": {
+                            "book": "CotFW",
+                            "page": 110
+                        },
+                        "xp": 3
+                    },
+                    {
+                        "name": "Thunderbolt Style",
+                        "rank": 4,
+                        "reference": {
+                            "book": "CotFW",
+                            "page": 110
+                        },
+                        "xp": 3
+                    }
+                ]
+            },
+            {
+                "name": "Nonhuman Kata",
+                "techniques": [
+                    {
+                        "name": "Flight",
+                        "_comment": "Yokai",    
+                        "rank": 1,
+                        "reference": {
+                            "book": "WotW",
+                            "page": 117
+                        },
+                        "xp": 3
+                    },
+                    {
+                        "name": "Razor Bite",
+                        "_comment": ["Naga", "Nezumi", "Yokai"],    
+                        "rank": 2,
+                        "reference": {
+                            "book": "WotW",
+                            "page": 117
+                        },
+                        "xp": 3
+                    },
+                    {
+                        "name": "Owl's Swoop Style",
+                        "_comment": "Yokai",    
+                        "rank": 3,
+                        "reference": {
+                            "book": "WotW",
+                            "page": 117
+                        },
+                        "xp": 3
+                    },
+                    {
+                        "name": "Skittering Shift",
+                        "_comment": "Nezumi",    
+                        "rank": 3,
+                        "reference": {
+                            "book": "WotW",
+                            "page": 118
+                        },
+                        "xp": 3
+                    },
+                    {
+                        "name": "Tail Sweep",
+                        "_comment": ["Naga", "Nezumi", "Yokai"],    
+                        "rank": 3,
+                        "reference": {
+                            "book": "WotW",
+                            "page": 118
+                        },
+                        "xp": 3
                     }
                 ]
             }
@@ -658,6 +879,33 @@
                         "xp": 3
                     },
                     {
+                        "name": "Mercy of the Stone Fortune",
+                        "rank": 2,
+                        "reference": {
+                            "book": "WotW",
+                            "page": 108
+                        },
+                        "xp": 3
+                    },
+                    {
+                        "name": "Rejuvinating Breath",
+                        "rank": 3,
+                        "reference": {
+                            "book": "WotW",
+                            "page": 109
+                        },
+                        "xp": 3
+                    },
+                    {
+                        "name": "Shadow of Ancient Peaks",
+                        "rank": 4,
+                        "reference": {
+                            "book": "WotW",
+                            "page": 109
+                        },
+                        "xp": 3
+                    },
+                    {
                         "name": "Way of the Earthquake",
                         "rank": 2,
                         "reference": {
@@ -681,11 +929,38 @@
                         "xp": 3
                     },
                     {
+                        "name": "Cutting Wind Talons",
+                        "rank": 4,
+                        "reference": {
+                            "book": "WotW",
+                            "page": 109
+                        },
+                        "xp": 3
+                    },
+                    {
+                        "name": "Grace of the Gentle Breeze",
+                        "rank": 3,
+                        "reference": {
+                            "book": "WotW",
+                            "page": 109
+                        },
+                        "xp": 3
+                    },
+                    {
                         "name": "Riding the Clouds",
                         "rank": 2,
                         "reference": {
                             "book": "Core",
                             "page": 184
+                        },
+                        "xp": 3
+                    },
+                    {
+                        "name": "Step of the Storm",
+                        "rank": 4,
+                        "reference": {
+                            "book": "WotW",
+                            "page": 110
                         },
                         "xp": 3
                     },
@@ -713,6 +988,15 @@
                 "name": "Fire Kih\u014d",
                 "techniques": [
                     {
+                        "name": "Blistering Retribution",
+                        "rank": 2,
+                        "reference": {
+                            "book": "WotW",
+                            "page": 110
+                        },
+                        "xp": 3
+                    },
+                    {
                         "name": "Breaking Blow",
                         "rank": 1,
                         "reference": {
@@ -727,6 +1011,15 @@
                         "reference": {
                             "book": "Core",
                             "page": 185
+                        },
+                        "xp": 3
+                    },
+                    {
+                        "name": "Dance of Fire",
+                        "rank": 3,
+                        "reference": {
+                            "book": "WotW",
+                            "page": 110
                         },
                         "xp": 3
                     },
@@ -749,6 +1042,15 @@
                         "xp": 3
                     },
                     {
+                        "name": "Volcanic Fist",
+                        "rank": 4,
+                        "reference": {
+                            "book": "WotW",
+                            "page": 111
+                        },
+                        "xp": 3
+                    },
+                    {
                         "name": "Way of the Falling Star",
                         "rank": 3,
                         "reference": {
@@ -762,6 +1064,15 @@
             {
                 "name": "Water Kih\u014d",
                 "techniques": [
+                    {
+                        "name": "Fist of Spreading Venom",
+                        "rank": 2,
+                        "reference": {
+                            "book": "WotW",
+                            "page": 112
+                        },
+                        "xp": 3
+                    },
                     {
                         "name": "Freezing the Lifeblood",
                         "rank": 2,
@@ -790,6 +1101,24 @@
                         "xp": 3
                     },
                     {
+                        "name": "River's Flowing Stride",
+                        "rank": 3,
+                        "reference": {
+                            "book": "WotW",
+                            "page": 112
+                        },
+                        "xp": 3
+                    },
+                    {
+                        "name": "Seeping Ki",
+                        "rank": 4,
+                        "reference": {
+                            "book": "WotW",
+                            "page": 112
+                        },
+                        "xp": 3
+                    },
+                    {
                         "name": "Water Fist",
                         "rank": 1,
                         "reference": {
@@ -813,11 +1142,38 @@
                 "name": "Void Kih\u014d",
                 "techniques": [
                     {
+                        "name": "Aura Awareness",
+                        "rank": 2,
+                        "reference": {
+                            "book": "WotW",
+                            "page": 113
+                        },
+                        "xp": 3
+                    },
+                    {
                         "name": "Death Touch",
                         "rank": 4,
                         "reference": {
                             "book": "Core",
                             "page": 188
+                        },
+                        "xp": 3
+                    },
+                    {
+                        "name": "Essence of Stillness",
+                        "rank": 3,
+                        "reference": {
+                            "book": "WotW",
+                            "page": 113
+                        },
+                        "xp": 3
+                    },
+                    {
+                        "name": "Eternal Mind's Gates",
+                        "rank": 4,
+                        "reference": {
+                            "book": "WotW",
+                            "page": 114
                         },
                         "xp": 3
                     },
@@ -1547,6 +1903,15 @@
                             "page": 109
                         },
                         "xp": 3
+                    },
+                    {
+                        "name": "The World is Not Heavy",
+                        "rank": 2,
+                        "reference": {
+                            "book": "CotFW",
+                            "page": 116
+                        },
+                        "xp": 3
                     }
                 ]
             }
@@ -1724,6 +2089,25 @@
                             "page": 98
                         },
                         "xp": 3
+                    },
+                    {
+                        "name": "Trance of Lives Past",
+                        "_comment": "Monk",
+                        "rank": 4,
+                        "reference": {
+                            "book": "WotW",
+                            "page": 120
+                        },
+                        "xp": 3
+                    },
+                    {
+                        "name": "Spiritual Survey",
+                        "rank": 2,
+                        "reference": {
+                            "book": "CotFW",
+                            "page": 110
+                        },
+                        "xp": 3
                     }
                 ]
             },
@@ -1765,6 +2149,26 @@
                             "page": 98
                         },
                         "xp": 3
+                    },
+                    {
+                        "name": "Guard Against the Elements",
+                        "_comment": "Yobanjin Group",
+                        "rank": 1,
+                        "reference": {
+                            "book": "WotW",
+                            "page": 119
+                        },
+                        "xp": 3
+                    },
+                    {
+                        "name": "Hunter's Expertise",
+                        "_comment": "Yobanjin Group",
+                        "rank": 3,
+                        "reference": {
+                            "book": "WotW",
+                            "page": 120
+                        },
+                        "xp": 3
                     }
                 ]
             },
@@ -1788,6 +2192,35 @@
                             "page": 96
                         },
                         "xp": 3
+                    },
+                    {
+                        "name": "Chikush\u014d-d\u014d's Guile",
+                        "_comment": "Yokai",
+                        "rank": 1,
+                        "reference": {
+                            "book": "WotW",
+                            "page": 118
+                        },
+                        "xp": 3
+                    },
+                    {
+                        "name": "Cunning Snares",
+                        "_comment": ["Shinobi", "Yobanjin Group"],
+                        "rank": 2,
+                        "reference": {
+                            "book": "WotW",
+                            "page": 119
+                        },
+                        "xp": 3
+                    },
+                    {
+                        "name": "Center the World",
+                        "rank": 3,
+                        "reference": {
+                            "book": "CotFW",
+                            "page": 110
+                        },
+                        "xp": 3
                     }
                 ]
             },
@@ -1799,6 +2232,24 @@
                         "rank": 2,
                         "reference": {
                             "book": "CR",
+                            "page": 110
+                        },
+                        "xp": 3
+                    },
+                    {
+                        "name": "Shadow of Days",
+                        "rank": 3,
+                        "reference": {
+                            "book": "CotFW",
+                            "page": 110
+                        },
+                        "xp": 3
+                    },
+                    {
+                        "name": "Traveler's Experience",
+                        "rank": 2,
+                        "reference": {
+                            "book": "CotFW",
                             "page": 110
                         },
                         "xp": 3
@@ -1835,6 +2286,15 @@
                             "page": 98
                         },
                         "xp": 3
+                    },
+                    {
+                        "name": "Wayfinder's Instincts",
+                        "rank": 2,
+                        "reference": {
+                            "book": "CotFW",
+                            "page": 110
+                        },
+                        "xp": 3
                     }
                 ]
             },
@@ -1856,6 +2316,24 @@
                         "reference": {
                             "book": "FoV",
                             "page": 97
+                        },
+                        "xp": 3
+                    },
+                    {
+                        "name": "Cultural Exchange",
+                        "rank": 1,
+                        "reference": {
+                            "book": "CotFW",
+                            "page": 110
+                        },
+                        "xp": 3
+                    },
+                    {
+                        "name": "Protection of the Flock",
+                        "rank": 2,
+                        "reference": {
+                            "book": "CotFW",
+                            "page": 110
                         },
                         "xp": 3
                     }
@@ -2031,6 +2509,33 @@
                             "page": 99
                         },
                         "xp": 3
+                    },
+                    {
+                        "name": "Cunning Omission",
+                        "rank": 3,
+                        "reference": {
+                            "book": "CotFW",
+                            "page": 112
+                        },
+                        "xp": 3
+                    },
+                    {
+                        "name": "Entice with Offerings",
+                        "rank": 3,
+                        "reference": {
+                            "book": "CotFW",
+                            "page": 113
+                        },
+                        "xp": 3
+                    },
+                    {
+                        "name": "Trader's Intuition",
+                        "rank": 2,
+                        "reference": {
+                            "book": "CotFW",
+                            "page": 113
+                        },
+                        "xp": 3
                     }
                 ]
             },
@@ -2169,6 +2674,24 @@
                         "reference": {
                             "book": "FoV",
                             "page": 100
+                        },
+                        "xp": 3
+                    },
+                    {
+                        "name": "Cite the Facts",
+                        "rank": 2,
+                        "reference": {
+                            "book": "CotFW",
+                            "page": 114
+                        },
+                        "xp": 3
+                    },
+                    {
+                        "name": "Solidify Gratitude",
+                        "rank": 3,
+                        "reference": {
+                            "book": "CotFW",
+                            "page": 114
                         },
                         "xp": 3
                     }
@@ -2375,6 +2898,24 @@
                             "page": 79
                         },
                         "xp": 3
+                    },
+                    {
+                        "name": "Glorious Entrance",
+                        "rank": 2,
+                        "reference": {
+                            "book": "CotFW",
+                            "page": 114
+                        },
+                        "xp": 3
+                    },
+                    {
+                        "name": "Incite Wrath",
+                        "rank": 3,
+                        "reference": {
+                            "book": "CotFW",
+                            "page": 114
+                        },
+                        "xp": 3
                     }
                 ]
             },
@@ -2531,6 +3072,42 @@
                         "reference": {
                             "book": "FoV",
                             "page": 103
+                        },
+                        "xp": 3
+                    },
+                    {
+                        "name": "Call to Ride",
+                        "rank": 1,
+                        "reference": {
+                            "book": "CotFW",
+                            "page": 115
+                        },
+                        "xp": 3
+                    },
+                    {
+                        "name": "Complementary Experience",
+                        "rank": 3,
+                        "reference": {
+                            "book": "CotFW",
+                            "page": 115
+                        },
+                        "xp": 3
+                    },
+                    {
+                        "name": "Everyone Has a Price",
+                        "rank": 4,
+                        "reference": {
+                            "book": "CotFW",
+                            "page": 115
+                        },
+                        "xp": 3
+                    },
+                    {
+                        "name": "Horse Whisperer",
+                        "rank": 3,
+                        "reference": {
+                            "book": "CotFW",
+                            "page": 115
                         },
                         "xp": 3
                     }
@@ -2695,6 +3272,15 @@
                         "reference": {
                             "book": "FoV",
                             "page": 104
+                        },
+                        "xp": 3
+                    },
+                    {
+                        "name": "Appreciate the Scenery",
+                        "rank": 1,
+                        "reference": {
+                            "book": "CotFW",
+                            "page": 116
                         },
                         "xp": 3
                     }

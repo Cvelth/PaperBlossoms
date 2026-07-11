@@ -175,7 +175,7 @@ def get_advantages(data_dir):
 
 
 def get_books():
-    books_enum = ['Core', 'EE', 'SL', 'Mantis', 'GMK', 'CoS', 'PoW', 'FoV', 'CR', 'DT']
+    books_enum = ['Core', 'EE', 'SL', 'Mantis', 'GMK', 'CoS', 'PoW', 'FoV', 'CR', 'DT', 'WotW', 'CotFW', 'Legacies of War']
 
     return books_enum
 
@@ -439,6 +439,13 @@ def write_books(data_dir, books_enum):
     print('... to item patterns')
     write_enums(
         data_dir.joinpath('json_schema/item_patterns.schema.json'),
+        'book',
+        books_enum
+    )
+
+    print('... to qualities')
+    write_enums(
+        data_dir.joinpath('json_schema/qualities.schema.json'),
         'book',
         books_enum
     )

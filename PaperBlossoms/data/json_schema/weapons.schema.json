@@ -33,13 +33,16 @@
                                         "CR",
                                         "CoS",
                                         "Core",
+                                        "CotFW",
                                         "DT",
                                         "EE",
                                         "FoV",
                                         "GMK",
+                                        "Legacies of War",
                                         "Mantis",
                                         "PoW",
-                                        "SL"
+                                        "SL",
+                                        "WotW"
                                     ]
                                 },
                                 "page": {
@@ -192,6 +195,7 @@
                                     "Durable",
                                     "Forbidden",
                                     "Forbidden to non-shugenja",
+                                    "Hewing",
                                     "Mundane",
                                     "Prepare",
                                     "Prepare (2)",

@@ -33,13 +33,16 @@
                                         "CR",
                                         "CoS",
                                         "Core",
+                                        "CotFW",
                                         "DT",
                                         "EE",
                                         "FoV",
                                         "GMK",
+                                        "Legacies of War",
                                         "Mantis",
                                         "PoW",
-                                        "SL"
+                                        "SL",
+                                        "WotW"
                                     ]
                                 },
                                 "page": {
@@ -94,7 +97,8 @@
                                     "Flaw",
                                     "Fame",
                                     "Martial",
-                                    "Infamy"
+                                    "Infamy",
+                                    "Material"
                                 ]
                             }
                         },

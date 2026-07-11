@@ -80,6 +80,8 @@ void NewCharWizardPage6::initializePage()
     ui->heritagetable_comboBox->addItem("CoS");
     ui->heritagetable_comboBox->addItem("CR");
     ui->heritagetable_comboBox->addItem("FoV");
+    ui->heritagetable_comboBox->addItem("WotW");
+    ui->heritagetable_comboBox->addItem("CotFW");
     ui->heritagetable_comboBox->setCurrentIndex(0);
 
     /////////////////SKILLBOX - Q17
@@ -350,7 +352,8 @@ void NewCharWizardPage6::buildq18UI(){ //this is all still in initializePage
         ui->nc6_q18_spec1_label->setText(tr("Player-chosen Quality:"));
         ui->nc6_q18_spec2_label->setText(tr("GM-chosen Quality:"));
     }
-    else if (curAncestor == deps->dal->translate("Stolen Knowledge")){
+    else if (curAncestor == deps->dal->translate("Stolen Knowledge") ||
+             curAncestor == deps->dal->translate("Knowledge Exchange")) {
         //Technique
         ui->nc6_q18_secondaryChoice_comboBox->setVisible(true);
         ui->nc6_q18_secondaryChoice_label->setVisible(true);
@@ -372,7 +375,12 @@ void NewCharWizardPage6::buildq18UI(){ //this is all still in initializePage
              curAncestor == deps->dal->translate("Touched by the Fortunes") ||
              curAncestor == deps->dal->translate("Born on the Battlefield") ||
              curAncestor == deps->dal->translate("Selfless Sentinel") ||
-             curAncestor == deps->dal->translate("Right Hand of the Emperor")
+             curAncestor == deps->dal->translate("Right Hand of the Emperor") ||
+             curAncestor == deps->dal->translate("Medical Innovator") ||
+             curAncestor == deps->dal->translate("Gaijin Consort") ||
+             curAncestor == deps->dal->translate("Revered Parent") ||
+             curAncestor == deps->dal->translate("Path to Enlightenment") ||
+             curAncestor == deps->dal->translate("Lost Banner")
 
              ){
         //Advantage
@@ -558,6 +566,19 @@ void NewCharWizardPage6::buildq18UI(){ //this is all still in initializePage
         ui->nc6_q18_spec1_label->setText("");
         ui->nc6_q18_spec2_label->setText("");
     }
+
+    // Children of the Five Winds
+    if (curAncestor == deps->dal->translate("Heart of a Horse") ||
+        curAncestor == deps->dal->translate("Sacred Wilderness")
+    ) {
+        ui->nc6_q18_otherrollButton->setVisible(false);
+
+    } else if (curAncestor == deps->dal->translate("Spiritual Debt")) {
+        ui->nc6_q18_specialInstruction_label->setVisible(true);
+        ui->nc6_q18_specialInstruction_label->setText(tr("Choose a ring to lower, to compensate:"));
+        ui->nc6_q18_special2_comboBox->setVisible(true);
+    }
+
     regenSummary();
 }
 
@@ -873,6 +894,33 @@ void NewCharWizardPage6::on_nc6_q18_otherComboBox_currentIndexChanged(const QStr
         }
     }
 
+    // Children of the Five Winds
+    else if (ui->heritagetable_comboBox->currentText() == "CotFW") {
+        switch (heritageRow) {
+        case 3:
+            // NOTE: this is identical to "Stolen Knowledge"
+            if(effectresult == deps->dal->translate("Mahō or Ninjutsu"))
+                ui->nc6_q18_secondaryChoice_comboBox->addItems(deps->techniquesRepository->qsl_getmahoninjutsu(1));
+            else
+                ui->nc6_q18_secondaryChoice_comboBox->addItems(deps->techniquesRepository->qsl_gettechbytyperank(deps->dal->untranslate(effectresult),1));
+            break;
+
+        case 8: {
+                QMap<QString, int> ringmap = calcCurrentRings();
+
+                QMapIterator<QString, int> i(ringmap);
+                while (i.hasNext()) {
+                    i.next();
+                    if (i.value() > 1)
+                        ui->nc6_q18_special2_comboBox->addItem (i.key());
+                }
+        } break;
+
+        default:
+            break;
+        }
+    }
+
     buildq18UI();
 }
 
@@ -1068,7 +1116,13 @@ QMap<QString, int> NewCharWizardPage6::calcSkills(){
                //FoV
                heritage ==   deps->dal->translate("Strategic Mastermind")||
                heritage ==   deps->dal->translate("Victory against Invaders")||
-               heritage ==   deps->dal->translate("Shamed by Defeat")
+               heritage ==   deps->dal->translate("Shamed by Defeat") ||
+               
+               // Writ of the Wilds
+               heritage == deps->dal->translate("Ties to the Perfect Land Sect") ||
+               
+               // Children of the Five Winds
+               heritage == deps->dal->translate("Splintered Loyalties")
 
                ){
             skills.append(field("q18OtherEffects").toString());

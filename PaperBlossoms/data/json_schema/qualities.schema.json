@@ -16,20 +16,23 @@
                 "type": "object",
                 "properties": {
                     "book": {
-                          "description": "Book in which reference can be found",
-                          "type": "string",
-                          "enum": [
+                        "description": "Book in which reference can be found",
+                        "type": "string",
+                        "enum": [
                             "CR",
                             "CoS",
                             "Core",
+                            "CotFW",
                             "DT",
                             "EE",
+                            "FoV",
                             "GMK",
+                            "Legacies of War",
                             "Mantis",
                             "PoW",
                             "SL",
-                            "FoV"
-                          ]
+                            "WotW"
+                        ]
                     },
                     "page": {
                         "description": "Page on which reference can be found",
