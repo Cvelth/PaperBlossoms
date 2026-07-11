@@ -950,11 +950,12 @@ QMap<QString, int> NewCharWizardPage7::calcRings(){
     }
 
     // Children of the Five Winds
-    if (field("q18OtherEffects").toString() == deps->dal->translate("Air Ring") ||
-        field("q18OtherEffects").toString() == deps->dal->translate("Water Ring") ||
-        field("q18OtherEffects").toString() == deps->dal->translate("Earth Ring") ||
-        field("q18OtherEffects").toString() == deps->dal->translate("Fire Ring") ||
-        field("q18OtherEffects").toString() == deps->dal->translate("Void Ring")
+    if ((field("q18OtherEffects").toString() == deps->dal->translate("Air Ring") ||
+         field("q18OtherEffects").toString() == deps->dal->translate("Water Ring") ||
+         field("q18OtherEffects").toString() == deps->dal->translate("Earth Ring") ||
+         field("q18OtherEffects").toString() == deps->dal->translate("Fire Ring") ||
+         field("q18OtherEffects").toString() == deps->dal->translate("Void Ring"))
+        && !field("q18Spec2").toString().isEmpty() //raise and lower as a pair, or not at all
     ) {
         ringmap[field("q18OtherEffects").toString().split(' ')[0]]++;
         ringmap[field("q18Spec2").toString()]--;
